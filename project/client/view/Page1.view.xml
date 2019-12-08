@@ -1,0 +1,22 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="victoria.controller.Page1" xmlns="sap.m">
+	<Page title="Master View" showHeader="true" showFooter="true" showNavButton="false">
+		<content>
+			<StandardListItem icon="sap-icon://form" id="idPage1Clerk" title="Data Entry Screen" description="Create/Save Hostels Info" info="Enter Data" infoState="Success"
+				type="Navigation" selected="false" visible="true" press="_onStandardListItemPress"/>
+			<StandardListItem icon="sap-icon://customer-and-supplier" id="idPage1Admin" title="Admin Screen" description="Administrative Screen" info="View Details"
+				infoState="Success" type="Navigation" selected="false" visible="true" press="_onStandardListItemPress1"/>
+		</content>
+		<footer>
+			<OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+				<content/>
+			</OverflowToolbar>
+		</footer>
+		<headerContent>
+			<Button text="" type="Default" icon="{= ${FclRouter>/expandIcon/img}}" iconFirst="true" width="auto" enabled="true"
+				visible="{= ${fclButton>/visible}}" tooltip="{= ${FclRouter>/expandIcon/tooltip}}" iconDensityAware="false" class="fcl-resizeButton-js"
+				press="_onExpandButtonPress"/>
+			<Button text="" type="Default" icon="sap-icon://decline" iconFirst="true" width="auto" enabled="true" visible="{= ${fclButton>/visible}}"
+				tooltip="Close Column" iconDensityAware="false" class="fcl-closeButton-js" press="_onCloseButtonPress"/>
+		</headerContent>
+	</Page>
+</mvc:View>

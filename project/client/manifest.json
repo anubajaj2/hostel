@@ -1,0 +1,226 @@
+{
+	"_version": "1.8.0",
+	"sap.app": {
+		"_version": "1.3.0",
+		"id": "victoria",
+		"type": "application",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"dataSources": {
+			"myService": {
+				"uri": "/odata/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml",
+					"annotations": ["annotationMain"]
+				}
+			},
+			"annotationMain": {
+				"type": "ODataAnnotation",
+				"uri": "annotations/annotationMain.xml",
+				"settings": {
+					"localUri": "annotations/annotationMain.xml"
+				}
+			}
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"tags": {
+			"keywords": ["{{keywords1}}"]
+		},
+		"ach": "SAP-HR"
+	},
+	"sap.ui": {
+		"_version": "1.3.0",
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": ["sap_bluecrystal"],
+		"icons": {
+			"icon": "sap-icon://retail-store"
+		}
+	},
+	"sap.ui5": {
+		"_version": "1.3.0",
+		"rootView": {
+			"viewName": "victoria.view.App",
+			"type": "XML",
+			"async": false,
+			"id": "app"
+		},
+		"handleValidation": true,
+		"dependencies": {
+			"minUI5Version": "1.50.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"resources": {
+			"css": [{
+				"uri": "css/style.css",
+				"id": "mystyle"
+			}]
+		},
+		"models": {
+			"local": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"uri": "models/mockData/sampledata.json",
+				"preload": true
+			},
+			"": {
+				"dataSource": "myService",
+				"preload": true
+			},
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "victoria.i18n.i18n"
+				},
+
+				"preload": true,
+				"async": true
+			}
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.f.routing.Router",
+				"viewType": "XML",
+				"viewPath": "victoria.view",
+				"controlId": "idAppControl",
+				"clearTarget": false,
+				"controlAggregation": "beginColumnPages",
+				"async": false,
+				"bypassed": {
+					"target": [
+						"Page0"
+					]
+				}
+			},
+			"targets": {
+				"Page0": {
+					"controlAggregation": "beginColumnPages",
+					"viewName": "Page0",
+					"viewId": "Page0",
+					"viewLevel": 1,
+					"transition": "slide"
+				},
+				"Page1": {
+					"controlAggregation": "beginColumnPages",
+					"viewName": "Page1",
+					"viewId": "Page1",
+					"viewLevel": 4,
+					"transition": "slide"
+				},
+				"Page2": {
+					"controlAggregation": "midColumnPages",
+					"viewName": "Page2",
+					"viewId": "Page2",
+					"viewLevel": 5,
+					"transition": "slide"
+				},
+				"Page3": {
+					"controlAggregation": "endColumnPages",
+					"viewName": "Page3",
+					"viewId": "Page3",
+					"viewLevel": 6,
+					"transition": "slide"
+				},
+				"Page3Dup": {
+					"controlAggregation": "midColumnPages",
+					"viewName": "Page3",
+					"viewId": "Page3",
+					"viewLevel": 3,
+					"transition": "slide"
+				},
+				"Page2Dup": {
+					"controlAggregation": "beginColumnPages",
+					"viewName": "Page2",
+					"viewId": "Page2",
+					"viewLevel": 2,
+					"transition": "slide"
+				},
+				"Admin": {
+					"controlAggregation": "midColumnPages",
+					"viewName": "Admin",
+					"viewId": "Admin",
+					"viewLevel": 7,
+					"transition": "slide"
+				}
+			},
+			"routes": [{
+				"pattern": "Page0/:layout:",
+				"name": "Page0",
+				"target": [
+					"Page0"
+				],
+				"layout": "OneColumn"
+			}, {
+				"pattern": "Page1/:layout:",
+				"name": "Page1",
+				"target": [
+					"Page1"
+				],
+				"layout": "OneColumn"
+			}, {
+				"pattern": "Page1/Page2/:layout:",
+				"name": "Page2",
+				"target": [
+					"Page1",
+					"Page2"
+				],
+				"layout": "TwoColumnsMidExpanded"
+			}, {
+				"pattern": "Page1/Page2/Page3/:endContext:/:layout:",
+				"name": "Page3",
+				"target": [
+					"Page1",
+					"Page2",
+					"Page3"
+				],
+				"layout": "ThreeColumnsEndExpanded"
+			}, {
+				"pattern": "Page2Dup/Page3Dup/:midContext:/:layout:",
+				"name": "Page3Dup",
+				"target": [
+					"Page2Dup",
+					"Page3Dup"
+				],
+				"layout": "TwoColumnsMidExpanded"
+			}, {
+				"pattern": "Page2Dup/:layout:",
+				"name": "Page2Dup",
+				"target": [
+					"Page2Dup"
+				],
+				"layout": "OneColumn"
+			}, {
+				"pattern": "",
+				"name": "default",
+				"target": [
+					"Page0"
+				],
+				"layout": "OneColumn"
+			}, {
+				"pattern": "Page1/Admin/:layout:",
+				"name": "Admin",
+				"target": [
+					"Page1",
+					"Admin"
+				],
+				"layout": "TwoColumnsMidExpanded"
+			}]
+		}
+	}
+}

@@ -1,0 +1,182 @@
+<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" Version="1.0">
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="NODATASERVER">
+			<EntityType Name="User">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="realm" Type="Edm.String"/>
+				<Property Name="username" Type="Edm.String"/>
+				<Property Name="password" Type="Edm.String"/>
+				<Property Name="email" Type="Edm.String"/>
+				<Property Name="emailVerified" Type="Edm.Boolean"/>
+				<Property Name="verificationToken" Type="Edm.String"/>
+				<Property Name="status" Type="Edm.String"/>
+				<Property Name="created" Type="Edm.DateTime"/>
+				<Property Name="lastUpdated" Type="Edm.DateTime"/>
+				<Property Name="id" Type="ObjectID"/>
+				<NavigationProperty Name="accessTokens" Relationship="NODATASERVER.User_accessTokens_AccessToken_user" FromRole="User_accessTokens" ToRole="AccessToken_user"/>
+			</EntityType>
+			<EntityType Name="AccessToken">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" Type="Edm.String"/>
+				<Property Name="ttl" Type="Edm.Decimal"/>
+				<Property Name="created" Type="Edm.DateTime"/>
+				<Property Name="userId" Type="ObjectID"/>
+				<NavigationProperty Name="user" Relationship="NODATASERVER.User_accessTokens_AccessToken_user" FromRole="AccessToken_user" ToRole="User_accessTokens"/>
+			</EntityType>
+			<EntityType Name="ACL">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="model" Type="Edm.String"/>
+				<Property Name="property" Type="Edm.String"/>
+				<Property Name="accessType" Type="Edm.String"/>
+				<Property Name="permission" Type="Edm.String"/>
+				<Property Name="principalType" Type="Edm.String"/>
+				<Property Name="principalId" Type="Edm.String"/>
+				<Property Name="id" Type="ObjectID"/>
+			</EntityType>
+			<EntityType Name="RoleMapping">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" Type="ObjectID"/>
+				<Property Name="principalType" Type="Edm.String"/>
+				<Property Name="principalId" Type="Edm.String"/>
+				<Property Name="roleId" Type="ObjectID"/>
+				<NavigationProperty Name="role" Relationship="NODATASERVER.RoleMapping_role_Role_principals" FromRole="RoleMapping_role" ToRole="Role_principals"/>
+			</EntityType>
+			<EntityType Name="Role">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" Type="ObjectID"/>
+				<Property Name="name" Type="Edm.String"/>
+				<Property Name="description" Type="Edm.String"/>
+				<Property Name="created" Type="Edm.DateTime"/>
+				<Property Name="modified" Type="Edm.DateTime"/>
+				<NavigationProperty Name="principals" Relationship="NODATASERVER.RoleMapping_role_Role_principals" FromRole="Role_principals" ToRole="RoleMapping_role"/>
+			</EntityType>
+			<EntityType Name="AppUser">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="TechnicalId" Type="Edm.String"/>
+				<Property Name="EmailId" Type="Edm.String"/>
+				<Property Name="UserName" Type="Edm.String"/>
+				<Property Name="Role" Type="Edm.String"/>
+				<Property Name="CreatedOn" Type="Edm.DateTime"/>
+				<Property Name="CreatedBy" Type="Edm.String"/>
+				<Property Name="ChangedOn" Type="Edm.DateTime"/>
+				<Property Name="ChangedBy" Type="Edm.String"/>
+				<Property Name="id" Type="ObjectID"/>
+			</EntityType>
+			<EntityType Name="Hostel">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="HostelName" Type="Edm.String"/>
+				<Property Name="Owner" Type="Edm.String"/>
+				<Property Name="AddressLine1" Type="Edm.String"/>
+				<Property Name="AddressLine2" Type="Edm.String"/>
+				<Property Name="Landmark" Type="Edm.String"/>
+				<Property Name="City" Type="Edm.String"/>
+				<Property Name="State" Type="Edm.String"/>
+				<Property Name="Pincode" Type="Edm.Decimal"/>
+				<Property Name="Mobile1" Type="Edm.Decimal"/>
+				<Property Name="Mobile2" Type="Edm.Decimal"/>
+				<Property Name="Landline1" Type="Edm.Decimal"/>
+				<Property Name="Landline2" Type="Edm.Decimal"/>
+				<Property Name="WardenName" Type="Edm.String"/>
+				<Property Name="Category" Type="Edm.String"/>
+				<Property Name="Type" Type="Edm.String"/>
+				<Property Name="CreatedOn" Type="Edm.DateTime"/>
+				<Property Name="CreatedBy" Type="Edm.String"/>
+				<Property Name="ChangedOn" Type="Edm.DateTime"/>
+				<Property Name="ChangedBy" Type="Edm.String"/>
+				<Property Name="id" Type="ObjectID"/>
+				<NavigationProperty Name="Rooms" Relationship="NODATASERVER.Hostel_Rooms_Room_Room" FromRole="Hostel_Rooms" ToRole="Room_Room"/>
+			</EntityType>
+			<EntityType Name="Room">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="ParentId" Type="ObjectID"/>
+				<Property Name="RoomType" Type="Edm.String"/>
+				<Property Name="AcNonAc" Type="Edm.String"/>
+				<Property Name="Occupency" Type="Edm.Decimal"/>
+				<Property Name="PricePerPerson" Type="Edm.Decimal"/>
+				<Property Name="RoomsAvailable" Type="Edm.Decimal"/>
+				<Property Name="ChangedOn" Type="Edm.DateTime"/>
+				<Property Name="ChangedBy" Type="ObjectID"/>
+				<Property Name="id" Type="ObjectID"/>
+				<Property Name="CreatedBy" Type="ObjectID"/>
+				<NavigationProperty Name="CreatedByTo" Relationship="NODATASERVER.Room_CreatedByTo_AppUser_AppUser" FromRole="Room_CreatedByTo" ToRole="AppUser_AppUser"/>
+				<NavigationProperty Name="ChangedByTo" Relationship="NODATASERVER.Room_CreatedByTo_AppUser_AppUser" FromRole="Room_CreatedByTo" ToRole="AppUser_AppUser"/>
+				<NavigationProperty Name="Photos" Relationship="NODATASERVER.Room_Photos_Photo_Photo" FromRole="Room_Photos" ToRole="Photo_Photo"/>
+			</EntityType>
+			<EntityType Name="Photo">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="RoomId" Type="ObjectID"/>
+				<Property Name="Photos" Type="Edm.String"/>
+				<Property Name="id" Type="ObjectID"/>
+			</EntityType>
+			<Association Name="User_accessTokens_AccessToken_user">
+				<End Type="NODATASERVER.User" Role="User_accessTokens" Multiplicity="1"/>
+				<End Type="NODATASERVER.AccessToken" Role="AccessToken_user" Multiplicity="*"/>
+			</Association>
+			<Association Name="RoleMapping_role_Role_principals">
+				<End Type="NODATASERVER.RoleMapping" Role="RoleMapping_role" Multiplicity="*"/>
+				<End Type="NODATASERVER.Role" Role="Role_principals" Multiplicity="1"/>
+			</Association>
+			<Association Name="Hostel_Rooms_Room_Room">
+				<End Type="NODATASERVER.Hostel" Role="Hostel_Rooms" Multiplicity="0..1"/>
+				<End Type="NODATASERVER.Room" Role="Room_Room" Multiplicity="*"/>
+			</Association>
+			<Association Name="Room_CreatedByTo_AppUser_AppUser">
+				<End Type="NODATASERVER.Room" Role="Room_CreatedByTo" Multiplicity="0..1"/>
+				<End Type="NODATASERVER.AppUser" Role="AppUser_AppUser" Multiplicity="1"/>
+			</Association>
+			<Association Name="Room_Photos_Photo_Photo">
+				<End Type="NODATASERVER.Room" Role="Room_Photos" Multiplicity="0..1"/>
+				<End Type="NODATASERVER.Photo" Role="Photo_Photo" Multiplicity="*"/>
+			</Association>
+			<EntityContainer Name="NODATASERVER" m:IsDefaultEntityContainer="true">
+				<EntitySet Name="Users" EntityType="NODATASERVER.User"/>
+				<EntitySet Name="AccessTokens" EntityType="NODATASERVER.AccessToken"/>
+				<EntitySet Name="ACLs" EntityType="NODATASERVER.ACL"/>
+				<EntitySet Name="RoleMappings" EntityType="NODATASERVER.RoleMapping"/>
+				<EntitySet Name="Roles" EntityType="NODATASERVER.Role"/>
+				<EntitySet Name="AppUsers" EntityType="NODATASERVER.AppUser"/>
+				<EntitySet Name="Hostels" EntityType="NODATASERVER.Hostel"/>
+				<EntitySet Name="Rooms" EntityType="NODATASERVER.Room"/>
+				<EntitySet Name="Photos" EntityType="NODATASERVER.Photo"/>
+				<AssociationSet Name="User_accessTokens_AccessToken" Association="NODATASERVER.User_accessTokens_AccessToken_user">
+					<End Role="User_accessTokens" EntitySet="Users"/>
+					<End Role="AccessToken_user" EntitySet="AccessTokens"/>
+				</AssociationSet>
+				<AssociationSet Name="RoleMapping_role_Role" Association="NODATASERVER.RoleMapping_role_Role_principals">
+					<End Role="RoleMapping_role" EntitySet="RoleMappings"/>
+					<End Role="Role_principals" EntitySet="Roles"/>
+				</AssociationSet>
+				<AssociationSet Name="Hostel_Rooms_Room" Association="NODATASERVER.Hostel_Rooms_Room_Room">
+					<End Role="Hostel_Rooms" EntitySet="Hostels"/>
+					<End Role="Room_Room" EntitySet="Rooms"/>
+				</AssociationSet>
+				<AssociationSet Name="Room_CreatedByTo_AppUser" Association="NODATASERVER.Room_CreatedByTo_AppUser_AppUser">
+					<End Role="Room_CreatedByTo" EntitySet="Rooms"/>
+					<End Role="AppUser_AppUser" EntitySet="AppUsers"/>
+				</AssociationSet>
+				<AssociationSet Name="Room_Photos_Photo" Association="NODATASERVER.Room_Photos_Photo_Photo">
+					<End Role="Room_Photos" EntitySet="Rooms"/>
+					<End Role="Photo_Photo" EntitySet="Photos"/>
+				</AssociationSet>
+			</EntityContainer>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "../common/models/tammenit",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "mongoatlas",
+    "public": true,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "AccessToken": {
+    "dataSource": "mongoatlas",
+    "public": true,
+    "options": {
+      "strictObjectIDCoercion": true
+    },
+    "acls":[
+      {
+        "accessType": "READ",
+        "principalType": "ROLE",
+        "principalId": "r_admin",
+        "permission": "ALLOW"
+      }
+    ]
+  },
+  "ACL": {
+    "dataSource": "mongoatlas",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mongoatlas",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "mongoatlas",
+    "public": false
+  },
+  "AppUser": {
+    "dataSource": "mongoatlas",
+    "public": true
+  },
+  "Hostel": {
+    "dataSource": "mongoatlas",
+    "public": true
+  },
+  "Room": {
+    "dataSource": "mongoatlas",
+    "public": true
+  },
+  "Photo": {
+    "dataSource": "mongoatlas",
+    "public": true
+  }
+}

@@ -1,0 +1,47 @@
+version: '3'
+services:
+  app:
+    container_name: oft-app
+    restart: always
+    build: .
+    ports:
+      - '3000:3000'
+    # links:
+    #   - mongo
+  # mongo:
+  #   container_name: mongo
+  #   image: mongo
+  #   ports:
+  #     - '27017:27017'
+
+# applications:
+#   - path: .
+#     memory: 256M
+#     instances: 1
+#     name: oft_app
+#     host: oft_app
+#     disk_quota: 1024M
+#     links:
+#       - mongo
+#
+# -services:
+#   mongo:
+#     image: mongo
+#     container_name: mongo
+#     ports:
+#       - '27017:27017'
+
+# applications:
+# - path: .
+#   memory: 256M
+#   instances: 1
+#   name: oft_app
+#   disk_quota: 2048M
+#   services:
+#     - mongo
+# - services:
+#     mongo:
+#       container_name: mongo
+#       image: mongo
+#       ports:
+#         - '27017:27017'

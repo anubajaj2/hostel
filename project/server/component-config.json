@@ -1,0 +1,11 @@
+{
+  "loopback-component-explorer": {
+    "mountPath": "/explorer"
+  },
+  "n-odata-server": {
+    "path": "/odata/*",
+    "maxpagesize": "2000",
+    "odataversion": "2",
+    "useViaMiddleware": true
+  }
+}

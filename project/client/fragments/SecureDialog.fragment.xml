@@ -1,0 +1,30 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form">
+	<Dialog title="Add New User" contentHeight="auto" contentWidth="auto" busyIndicatorDelay="0">
+		<content>
+			<f:SimpleForm class="editableForm" columnsL="1" columnsM="1" editable="true" emptySpanL="4" emptySpanM="4" id="secureDetailsForm"
+				labelSpanL="3" labelSpanM="3" layout="ResponsiveGridLayout" maxContainerCols="2">
+				<f:content>
+					<Label text="Technical Id" required="true"/>
+			          <ComboBox id="idTech" items="{/AppUsers}" selectedKey="{TechnicalId}">
+			            <items>
+			              <core:Item text="{TechnicalId}" key="{TechnicalId}"/>
+			            </items>
+			          </ComboBox>
+					<Label text="Role" required="true"/>
+					<ComboBox id="idRole" selectedKey="{Role}">
+						<core:Item text="Clerk" key="Clerk"/>
+						<core:Item text="Admin" key="Admin"/>
+					</ComboBox>
+					<Label text="User Name" required="true"/>
+					<Input id="idUser" name="DescriptionName" value="{UserName}" valueLiveUpdate="true"/>
+					<Label text="Email" required="true"/>
+					<Input id="idEmail" name="Email"  value="{EmailId}" valueLiveUpdate="true"/>
+				</f:content>
+			</f:SimpleForm>
+		</content>
+		<buttons>
+			<Button text="Ok" press="onPressHandleSecureOkPopup"/>
+			<Button text="Cancel" press="onPressHandleSecureCancelPopup"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>

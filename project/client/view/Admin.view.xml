@@ -1,0 +1,58 @@
+<mvc:View controllerName="victoria.controller.Admin" xmlns:core="sap.ui.core" xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic">
+	<semantic:FullscreenPage busyIndicatorDelay="0" title="Admin Panel" >
+		<semantic:content>
+			<Table id="viewSecureTable" items="{/AppUsers}" busyIndicatorDelay="0" class="sapUiContentPadding" mode="MultiSelect">
+				<headerToolbar>
+					<OverflowToolbar>
+						<ToolbarSpacer/>
+						<OverflowToolbarButton id="viewSecureTableAddBtn" icon="sap-icon://add" tooltip="Add" press="onPressOpenAddSecureDialog"/>
+						<OverflowToolbarButton id="viewSecureTPTableDeleteBtn" icon="sap-icon://delete" tooltip="Delete"
+							press="onPressDeleteSecureRow"/>
+					</OverflowToolbar>
+				</headerToolbar>
+				<columns>
+					<Column minScreenWidth="Tablet" demandPopin="true" width="auto">
+						<header>
+							<Text text="Technical Id"/>
+						</header>
+					</Column>
+					<Column minScreenWidth="Tablet" demandPopin="true" width="auto">
+						<header>
+							<Text text="Email Id"/>
+						</header>
+					</Column>
+					<Column minScreenWidth="Tablet" demandPopin="true" width="auto">
+						<header>
+							<Text text="User Name"/>
+						</header>
+					</Column>
+					<Column minScreenWidth="Tablet" demandPopin="true" width="auto">
+						<header>
+							<Text text="Role"/>
+						</header>
+					</Column>
+					<Column minScreenWidth="Tablet" demandPopin="true" width="auto">
+						<header>
+							<Text text="Edit"/>
+						</header>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem vAlign="Middle">
+						<cells>
+							<Label text="{TechnicalId}"/>
+							<Label text="{EmailId}"/>
+							<Label text="{UserName}"/>
+							<Label text="{Role}"/>
+							<Button icon="sap-icon://edit" press="editSecureField"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</semantic:content>
+		<semantic:customFooterContent>
+			<ToolbarSpacer/>
+		</semantic:customFooterContent>
+	</semantic:FullscreenPage>
+</mvc:View>

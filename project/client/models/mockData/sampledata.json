@@ -1,0 +1,4967 @@
+{
+	"Authorization": "",
+	"LoginUser": "",
+	"CurrentUser": "",
+	"Role": "",
+	"messagesLength": "0",
+	"messages": [],
+	"trueOrFalse": [{
+			"value": " "
+		},
+		{
+			"value": true
+		},
+		{
+			"value": false
+		}],
+	"appUsers": [{
+			"Role": "Admin",
+			"User": "Anurag",
+			"Password": "xys@251"
+		},
+		{
+			"Role": "Clerk",
+			"User": "Demo1",
+			"Password": "xys@251"
+		},
+		{
+			"Role": "Accountant",
+			"User": "Demo2",
+			"Password": "xys@251"
+		},
+		{
+			"Role": "Manager",
+			"User": "Demo3",
+			"Password": "xys@251"
+		},
+		{
+			"Role": "ServerManager",
+			"User": "Demo4",
+			"Password": "xys@251"
+		}],
+	  "newHostel": {
+		"HostelName": "",
+		"Owner": "",
+		"WardenName": "",
+		"Category": "",
+		"Type": "",
+		"CreatedBy": "",
+		"CreatedOn": "",
+		"ChangedOn": "",
+		"ChangedBy": "",
+		"AddressLine1": "",
+		"AddressLine2": "",
+		"Landmark": "",
+		"City": "",
+		"State": "",
+		"Pincode": "",
+		"Mobile1": "",
+		"Mobile2": "",
+		"Landline1": "",
+		"Landline2": ""
+	},
+	"newRoom": {
+	"ParentId": "",
+	"RoomType": "",
+	"AcNonAc": "",
+	"Occupency": "",
+	"PricePerPerson": "",
+	"RoomsAvailable": "",
+	"Type":"",
+	"ChangedOn": "",
+	"ChangedBy": "",
+	"CreatedBy": "",
+	"CreatedOn": ""
+},
+  "Locations": [
+ {
+   "City": "Port Blair",
+   "State": "Andaman and Nicobar Islands"
+ },
+ {
+   "City": "Visakhapatnam",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Vijayawada",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Guntur",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Nellore",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Kurnool",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Rajahmundry",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Kakinada",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Tirupati",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Anantapur",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Kadapa",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Vizianagaram",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Eluru",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Ongole",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Nandyal",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Machilipatnam",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Adoni",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Tenali",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Chittoor",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Hindupur",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Proddatur",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Bhimavaram",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Madanapalle",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Guntakal",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Dharmavaram",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Gudivada",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Srikakulam",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Narasaraopet",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Rajampet",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Tadpatri",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Tadepalligudem",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Chilakaluripet",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Yemmiganur",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Kadiri",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Chirala",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Anakapalle",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Kavali",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Palacole",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Sullurpeta",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Tanuku",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Rayachoti",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Srikalahasti",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Bapatla",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Naidupet",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Nagari",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Gudur",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Vinukonda",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Narasapuram",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Nuzvid",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Markapur",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Ponnur",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Kandukur",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Bobbili",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Rayadurg",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Samalkot",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Jaggaiahpet",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Tuni",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Amalapuram",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Bheemunipatnam",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Venkatagiri",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Sattenapalle",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Pithapuram",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Palasa Kasibugga",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Parvathipuram",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Macherla",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Gooty",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Salur",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Mandapeta",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Jammalamadugu",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Peddapuram",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Punganur",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Nidadavole",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Repalle",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Ramachandrapuram",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Kovvur",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Tiruvuru",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Uravakonda",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Narsipatnam",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Yerraguntla",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Pedana",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Puttur",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Renigunta",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Rajam",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Srisailam Project (Right Flank Colony) Township",
+   "State": "Andhra Pradesh"
+ },
+ {
+   "City": "Naharlagun",
+   "State": "Arunachal Pradesh"
+ },
+ {
+   "City": "Pasighat",
+   "State": "Arunachal Pradesh"
+ },
+ {
+   "City": "Guwahati",
+   "State": "Assam"
+ },
+ {
+   "City": "Silchar",
+   "State": "Assam"
+ },
+ {
+   "City": "Dibrugarh",
+   "State": "Assam"
+ },
+ {
+   "City": "Nagaon",
+   "State": "Assam"
+ },
+ {
+   "City": "Tinsukia",
+   "State": "Assam"
+ },
+ {
+   "City": "Jorhat",
+   "State": "Assam"
+ },
+ {
+   "City": "Bongaigaon City",
+   "State": "Assam"
+ },
+ {
+   "City": "Dhubri",
+   "State": "Assam"
+ },
+ {
+   "City": "Diphu",
+   "State": "Assam"
+ },
+ {
+   "City": "North Lakhimpur",
+   "State": "Assam"
+ },
+ {
+   "City": "Tezpur",
+   "State": "Assam"
+ },
+ {
+   "City": "Karimganj",
+   "State": "Assam"
+ },
+ {
+   "City": "Sibsagar",
+   "State": "Assam"
+ },
+ {
+   "City": "Goalpara",
+   "State": "Assam"
+ },
+ {
+   "City": "Barpeta",
+   "State": "Assam"
+ },
+ {
+   "City": "Lanka",
+   "State": "Assam"
+ },
+ {
+   "City": "Lumding",
+   "State": "Assam"
+ },
+ {
+   "City": "Mankachar",
+   "State": "Assam"
+ },
+ {
+   "City": "Nalbari",
+   "State": "Assam"
+ },
+ {
+   "City": "Rangia",
+   "State": "Assam"
+ },
+ {
+   "City": "Margherita",
+   "State": "Assam"
+ },
+ {
+   "City": "Mangaldoi",
+   "State": "Assam"
+ },
+ {
+   "City": "Silapathar",
+   "State": "Assam"
+ },
+ {
+   "City": "Mariani",
+   "State": "Assam"
+ },
+ {
+   "City": "Marigaon",
+   "State": "Assam"
+ },
+ {
+   "City": "Patna",
+   "State": "Bihar"
+ },
+ {
+   "City": "Gaya",
+   "State": "Bihar"
+ },
+ {
+   "City": "Bhagalpur",
+   "State": "Bihar"
+ },
+ {
+   "City": "Muzaffarpur",
+   "State": "Bihar"
+ },
+ {
+   "City": "Darbhanga",
+   "State": "Bihar"
+ },
+ {
+   "City": "Arrah",
+   "State": "Bihar"
+ },
+ {
+   "City": "Begusarai",
+   "State": "Bihar"
+ },
+ {
+   "City": "Chhapra",
+   "State": "Bihar"
+ },
+ {
+   "City": "Katihar",
+   "State": "Bihar"
+ },
+ {
+   "City": "Munger",
+   "State": "Bihar"
+ },
+ {
+   "City": "Purnia",
+   "State": "Bihar"
+ },
+ {
+   "City": "Saharsa",
+   "State": "Bihar"
+ },
+ {
+   "City": "Sasaram",
+   "State": "Bihar"
+ },
+ {
+   "City": "Hajipur",
+   "State": "Bihar"
+ },
+ {
+   "City": "Dehri-on-Sone",
+   "State": "Bihar"
+ },
+ {
+   "City": "Bettiah",
+   "State": "Bihar"
+ },
+ {
+   "City": "Motihari",
+   "State": "Bihar"
+ },
+ {
+   "City": "Bagaha",
+   "State": "Bihar"
+ },
+ {
+   "City": "Siwan",
+   "State": "Bihar"
+ },
+ {
+   "City": "Kishanganj",
+   "State": "Bihar"
+ },
+ {
+   "City": "Jamalpur",
+   "State": "Bihar"
+ },
+ {
+   "City": "Buxar",
+   "State": "Bihar"
+ },
+ {
+   "City": "Jehanabad",
+   "State": "Bihar"
+ },
+ {
+   "City": "Aurangabad",
+   "State": "Bihar"
+ },
+ {
+   "City": "Lakhisarai",
+   "State": "Bihar"
+ },
+ {
+   "City": "Nawada",
+   "State": "Bihar"
+ },
+ {
+   "City": "Jamui",
+   "State": "Bihar"
+ },
+ {
+   "City": "Sitamarhi",
+   "State": "Bihar"
+ },
+ {
+   "City": "Araria",
+   "State": "Bihar"
+ },
+ {
+   "City": "Gopalganj",
+   "State": "Bihar"
+ },
+ {
+   "City": "Madhubani",
+   "State": "Bihar"
+ },
+ {
+   "City": "Masaurhi",
+   "State": "Bihar"
+ },
+ {
+   "City": "Samastipur",
+   "State": "Bihar"
+ },
+ {
+   "City": "Mokameh",
+   "State": "Bihar"
+ },
+ {
+   "City": "Supaul",
+   "State": "Bihar"
+ },
+ {
+   "City": "Dumraon",
+   "State": "Bihar"
+ },
+ {
+   "City": "Arwal",
+   "State": "Bihar"
+ },
+ {
+   "City": "Forbesganj",
+   "State": "Bihar"
+ },
+ {
+   "City": "BhabUrban Agglomeration",
+   "State": "Bihar"
+ },
+ {
+   "City": "Narkatiaganj",
+   "State": "Bihar"
+ },
+ {
+   "City": "Naugachhia",
+   "State": "Bihar"
+ },
+ {
+   "City": "Madhepura",
+   "State": "Bihar"
+ },
+ {
+   "City": "Sheikhpura",
+   "State": "Bihar"
+ },
+ {
+   "City": "Sultanganj",
+   "State": "Bihar"
+ },
+ {
+   "City": "Raxaul Bazar",
+   "State": "Bihar"
+ },
+ {
+   "City": "Ramnagar",
+   "State": "Bihar"
+ },
+ {
+   "City": "Mahnar Bazar",
+   "State": "Bihar"
+ },
+ {
+   "City": "Warisaliganj",
+   "State": "Bihar"
+ },
+ {
+   "City": "Revelganj",
+   "State": "Bihar"
+ },
+ {
+   "City": "Rajgir",
+   "State": "Bihar"
+ },
+ {
+   "City": "Sonepur",
+   "State": "Bihar"
+ },
+ {
+   "City": "Sherghati",
+   "State": "Bihar"
+ },
+ {
+   "City": "Sugauli",
+   "State": "Bihar"
+ },
+ {
+   "City": "Makhdumpur",
+   "State": "Bihar"
+ },
+ {
+   "City": "Maner",
+   "State": "Bihar"
+ },
+ {
+   "City": "Rosera",
+   "State": "Bihar"
+ },
+ {
+   "City": "Nokha",
+   "State": "Bihar"
+ },
+ {
+   "City": "Piro",
+   "State": "Bihar"
+ },
+ {
+   "City": "Rafiganj",
+   "State": "Bihar"
+ },
+ {
+   "City": "Marhaura",
+   "State": "Bihar"
+ },
+ {
+   "City": "Mirganj",
+   "State": "Bihar"
+ },
+ {
+   "City": "Lalganj",
+   "State": "Bihar"
+ },
+ {
+   "City": "Murliganj",
+   "State": "Bihar"
+ },
+ {
+   "City": "Motipur",
+   "State": "Bihar"
+ },
+ {
+   "City": "Manihari",
+   "State": "Bihar"
+ },
+ {
+   "City": "Sheohar",
+   "State": "Bihar"
+ },
+ {
+   "City": "Maharajganj",
+   "State": "Bihar"
+ },
+ {
+   "City": "Silao",
+   "State": "Bihar"
+ },
+ {
+   "City": "Barh",
+   "State": "Bihar"
+ },
+ {
+   "City": "Asarganj",
+   "State": "Bihar"
+ },
+ {
+   "City": "Chandigarh",
+   "State": "Chandigarh"
+ },
+ {
+   "City": "Raipur",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Bhilai Nagar",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Korba",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Bilaspur",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Durg",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Rajnandgaon",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Jagdalpur",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Raigarh",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Ambikapur",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Mahasamund",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Dhamtari",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Chirmiri",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Bhatapara",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Dalli-Rajhara",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Naila Janjgir",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Tilda Newra",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Mungeli",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Manendragarh",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Sakti",
+   "State": "Chhattisgarh"
+ },
+ {
+   "City": "Silvassa",
+   "State": "Dadra and Nagar Haveli"
+ },
+ {
+   "City": "Delhi",
+   "State": "Delhi"
+ },
+ {
+   "City": "New Delhi",
+   "State": "Delhi"
+ },
+ {
+   "City": "Marmagao",
+   "State": "Goa"
+ },
+ {
+   "City": "Panaji",
+   "State": "Goa"
+ },
+ {
+   "City": "Margao",
+   "State": "Goa"
+ },
+ {
+   "City": "Mapusa",
+   "State": "Goa"
+ },
+ {
+   "City": "Ahmedabad",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Surat",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Vadodara",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Rajkot",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Bhavnagar",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Jamnagar",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Nadiad",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Porbandar",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Anand",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Morvi",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Mahesana",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Bharuch",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Vapi",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Navsari",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Veraval",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Bhuj",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Godhra",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Palanpur",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Valsad",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Patan",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Deesa",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Amreli",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Anjar",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Dhoraji",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Khambhat",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Mahuva",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Keshod",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Wadhwan",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Ankleshwar",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Savarkundla",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Kadi",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Visnagar",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Upleta",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Una",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Sidhpur",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Unjha",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Mangrol",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Viramgam",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Modasa",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Palitana",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Petlad",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Kapadvanj",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Sihor",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Wankaner",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Limbdi",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Mandvi",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Thangadh",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Vyara",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Padra",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Lunawada",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Rajpipla",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Vapi",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Umreth",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Sanand",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Rajula",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Radhanpur",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Mahemdabad",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Ranavav",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Tharad",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Mansa",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Umbergaon",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Talaja",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Vadnagar",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Manavadar",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Salaya",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Vijapur",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Pardi",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Rapar",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Songadh",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Lathi",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Adalaj",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Chhapra",
+   "State": "Gujarat"
+ },
+ {
+   "City": "Faridabad",
+   "State": "Haryana"
+ },
+ {
+   "City": "Gurgaon",
+   "State": "Haryana"
+ },
+ {
+   "City": "Hisar",
+   "State": "Haryana"
+ },
+ {
+   "City": "Rohtak",
+   "State": "Haryana"
+ },
+ {
+   "City": "Panipat",
+   "State": "Haryana"
+ },
+ {
+   "City": "Karnal",
+   "State": "Haryana"
+ },
+ {
+   "City": "Sonipat",
+   "State": "Haryana"
+ },
+ {
+   "City": "Yamunanagar",
+   "State": "Haryana"
+ },
+ {
+   "City": "Panchkula",
+   "State": "Haryana"
+ },
+ {
+   "City": "Bhiwani",
+   "State": "Haryana"
+ },
+ {
+   "City": "Bahadurgarh",
+   "State": "Haryana"
+ },
+ {
+   "City": "Jind",
+   "State": "Haryana"
+ },
+ {
+   "City": "Sirsa",
+   "State": "Haryana"
+ },
+ {
+   "City": "Thanesar",
+   "State": "Haryana"
+ },
+ {
+   "City": "Kaithal",
+   "State": "Haryana"
+ },
+ {
+   "City": "Palwal",
+   "State": "Haryana"
+ },
+ {
+   "City": "Rewari",
+   "State": "Haryana"
+ },
+ {
+   "City": "Hansi",
+   "State": "Haryana"
+ },
+ {
+   "City": "Narnaul",
+   "State": "Haryana"
+ },
+ {
+   "City": "Fatehabad",
+   "State": "Haryana"
+ },
+ {
+   "City": "Gohana",
+   "State": "Haryana"
+ },
+ {
+   "City": "Tohana",
+   "State": "Haryana"
+ },
+ {
+   "City": "Narwana",
+   "State": "Haryana"
+ },
+ {
+   "City": "Mandi Dabwali",
+   "State": "Haryana"
+ },
+ {
+   "City": "Charkhi Dadri",
+   "State": "Haryana"
+ },
+ {
+   "City": "Shahbad",
+   "State": "Haryana"
+ },
+ {
+   "City": "Pehowa",
+   "State": "Haryana"
+ },
+ {
+   "City": "Samalkha",
+   "State": "Haryana"
+ },
+ {
+   "City": "Pinjore",
+   "State": "Haryana"
+ },
+ {
+   "City": "Ladwa",
+   "State": "Haryana"
+ },
+ {
+   "City": "Sohna",
+   "State": "Haryana"
+ },
+ {
+   "City": "Safidon",
+   "State": "Haryana"
+ },
+ {
+   "City": "Taraori",
+   "State": "Haryana"
+ },
+ {
+   "City": "Mahendragarh",
+   "State": "Haryana"
+ },
+ {
+   "City": "Ratia",
+   "State": "Haryana"
+ },
+ {
+   "City": "Rania",
+   "State": "Haryana"
+ },
+ {
+   "City": "Sarsod",
+   "State": "Haryana"
+ },
+ {
+   "City": "Shimla",
+   "State": "Himachal Pradesh"
+ },
+ {
+   "City": "Mandi",
+   "State": "Himachal Pradesh"
+ },
+ {
+   "City": "Solan",
+   "State": "Himachal Pradesh"
+ },
+ {
+   "City": "Nahan",
+   "State": "Himachal Pradesh"
+ },
+ {
+   "City": "Sundarnagar",
+   "State": "Himachal Pradesh"
+ },
+ {
+   "City": "Palampur",
+   "State": "Himachal Pradesh"
+ },
+ {
+   "City": "Srinagar",
+   "State": "Jammu and Kashmir"
+ },
+ {
+   "City": "Jammu",
+   "State": "Jammu and Kashmir"
+ },
+ {
+   "City": "Baramula",
+   "State": "Jammu and Kashmir"
+ },
+ {
+   "City": "Anantnag",
+   "State": "Jammu and Kashmir"
+ },
+ {
+   "City": "Sopore",
+   "State": "Jammu and Kashmir"
+ },
+ {
+   "City": "KathUrban Agglomeration",
+   "State": "Jammu and Kashmir"
+ },
+ {
+   "City": "Rajauri",
+   "State": "Jammu and Kashmir"
+ },
+ {
+   "City": "Punch",
+   "State": "Jammu and Kashmir"
+ },
+ {
+   "City": "Udhampur",
+   "State": "Jammu and Kashmir"
+ },
+ {
+   "City": "Dhanbad",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Ranchi",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Jamshedpur",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Bokaro Steel City",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Deoghar",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Phusro",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Adityapur",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Hazaribag",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Giridih",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Ramgarh",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Jhumri Tilaiya",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Saunda",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Sahibganj",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Medininagar (Daltonganj)",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Chaibasa",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Chatra",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Gumia",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Dumka",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Madhupur",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Chirkunda",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Pakaur",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Simdega",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Musabani",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Mihijam",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Patratu",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Lohardaga",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Tenu dam-cum-Kathhara",
+   "State": "Jharkhand"
+ },
+ {
+   "City": "Bengaluru",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Hubli-Dharwad",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Belagavi",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Mangaluru",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Davanagere",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Ballari",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Tumkur",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Shivamogga",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Raayachuru",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Robertson Pet",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Kolar",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Mandya",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Udupi",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Chikkamagaluru",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Karwar",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Ranebennuru",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Ranibennur",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Ramanagaram",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Gokak",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Yadgir",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Rabkavi Banhatti",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Shahabad",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Sirsi",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Sindhnur",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Tiptur",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Arsikere",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Nanjangud",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Sagara",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Sira",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Puttur",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Athni",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Mulbagal",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Surapura",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Siruguppa",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Mudhol",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Sidlaghatta",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Shahpur",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Saundatti-Yellamma",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Wadi",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Manvi",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Nelamangala",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Lakshmeshwar",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Ramdurg",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Nargund",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Tarikere",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Malavalli",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Savanur",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Lingsugur",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Vijayapura",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Sankeshwara",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Madikeri",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Talikota",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Sedam",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Shikaripur",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Mahalingapura",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Mudalagi",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Muddebihal",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Pavagada",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Malur",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Sindhagi",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Sanduru",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Afzalpur",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Maddur",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Madhugiri",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Tekkalakote",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Terdal",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Mudabidri",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Magadi",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Navalgund",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Shiggaon",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Shrirangapattana",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Sindagi",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Sakaleshapura",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Srinivaspur",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Ron",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Mundargi",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Sadalagi",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Piriyapatna",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Adyar",
+   "State": "Karnataka"
+ },
+ {
+   "City": "Mysore",
+   "State": "Karnatka"
+ },
+ {
+   "City": "Thiruvananthapuram",
+   "State": "Kerala"
+ },
+ {
+   "City": "Kochi",
+   "State": "Kerala"
+ },
+ {
+   "City": "Kozhikode",
+   "State": "Kerala"
+ },
+ {
+   "City": "Kollam",
+   "State": "Kerala"
+ },
+ {
+   "City": "Thrissur",
+   "State": "Kerala"
+ },
+ {
+   "City": "Palakkad",
+   "State": "Kerala"
+ },
+ {
+   "City": "Alappuzha",
+   "State": "Kerala"
+ },
+ {
+   "City": "Malappuram",
+   "State": "Kerala"
+ },
+ {
+   "City": "Ponnani",
+   "State": "Kerala"
+ },
+ {
+   "City": "Vatakara",
+   "State": "Kerala"
+ },
+ {
+   "City": "Kanhangad",
+   "State": "Kerala"
+ },
+ {
+   "City": "Taliparamba",
+   "State": "Kerala"
+ },
+ {
+   "City": "Koyilandy",
+   "State": "Kerala"
+ },
+ {
+   "City": "Neyyattinkara",
+   "State": "Kerala"
+ },
+ {
+   "City": "Kayamkulam",
+   "State": "Kerala"
+ },
+ {
+   "City": "Nedumangad",
+   "State": "Kerala"
+ },
+ {
+   "City": "Kannur",
+   "State": "Kerala"
+ },
+ {
+   "City": "Tirur",
+   "State": "Kerala"
+ },
+ {
+   "City": "Kottayam",
+   "State": "Kerala"
+ },
+ {
+   "City": "Kasaragod",
+   "State": "Kerala"
+ },
+ {
+   "City": "Kunnamkulam",
+   "State": "Kerala"
+ },
+ {
+   "City": "Ottappalam",
+   "State": "Kerala"
+ },
+ {
+   "City": "Thiruvalla",
+   "State": "Kerala"
+ },
+ {
+   "City": "Thodupuzha",
+   "State": "Kerala"
+ },
+ {
+   "City": "Chalakudy",
+   "State": "Kerala"
+ },
+ {
+   "City": "Changanassery",
+   "State": "Kerala"
+ },
+ {
+   "City": "Punalur",
+   "State": "Kerala"
+ },
+ {
+   "City": "Nilambur",
+   "State": "Kerala"
+ },
+ {
+   "City": "Cherthala",
+   "State": "Kerala"
+ },
+ {
+   "City": "Perinthalmanna",
+   "State": "Kerala"
+ },
+ {
+   "City": "Mattannur",
+   "State": "Kerala"
+ },
+ {
+   "City": "Shoranur",
+   "State": "Kerala"
+ },
+ {
+   "City": "Varkala",
+   "State": "Kerala"
+ },
+ {
+   "City": "Paravoor",
+   "State": "Kerala"
+ },
+ {
+   "City": "Pathanamthitta",
+   "State": "Kerala"
+ },
+ {
+   "City": "Peringathur",
+   "State": "Kerala"
+ },
+ {
+   "City": "Attingal",
+   "State": "Kerala"
+ },
+ {
+   "City": "Kodungallur",
+   "State": "Kerala"
+ },
+ {
+   "City": "Pappinisseri",
+   "State": "Kerala"
+ },
+ {
+   "City": "Chittur-Thathamangalam",
+   "State": "Kerala"
+ },
+ {
+   "City": "Muvattupuzha",
+   "State": "Kerala"
+ },
+ {
+   "City": "Adoor",
+   "State": "Kerala"
+ },
+ {
+   "City": "Mavelikkara",
+   "State": "Kerala"
+ },
+ {
+   "City": "Mavoor",
+   "State": "Kerala"
+ },
+ {
+   "City": "Perumbavoor",
+   "State": "Kerala"
+ },
+ {
+   "City": "Vaikom",
+   "State": "Kerala"
+ },
+ {
+   "City": "Palai",
+   "State": "Kerala"
+ },
+ {
+   "City": "Panniyannur",
+   "State": "Kerala"
+ },
+ {
+   "City": "Guruvayoor",
+   "State": "Kerala"
+ },
+ {
+   "City": "Puthuppally",
+   "State": "Kerala"
+ },
+ {
+   "City": "Panamattom",
+   "State": "Kerala"
+ },
+ {
+   "City": "Indore",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Bhopal",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Jabalpur",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Gwalior",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Ujjain",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Sagar",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Ratlam",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Satna",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Murwara (Katni)",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Morena",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Singrauli",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Rewa",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Vidisha",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Ganjbasoda",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Shivpuri",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Mandsaur",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Neemuch",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Nagda",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Itarsi",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Sarni",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Sehore",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Mhow Cantonment",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Seoni",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Balaghat",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Ashok Nagar",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Tikamgarh",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Shahdol",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Pithampur",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Alirajpur",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Mandla",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Sheopur",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Shajapur",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Panna",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Raghogarh-Vijaypur",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Sendhwa",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Sidhi",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Pipariya",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Shujalpur",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Sironj",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Pandhurna",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Nowgong",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Mandideep",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Sihora",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Raisen",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Lahar",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Maihar",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Sanawad",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Sabalgarh",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Umaria",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Porsa",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Narsinghgarh",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Malaj Khand",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Sarangpur",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Mundi",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Nepanagar",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Pasan",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Mahidpur",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Seoni-Malwa",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Rehli",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Manawar",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Rahatgarh",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Panagar",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Wara Seoni",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Tarana",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Sausar",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Rajgarh",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Niwari",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Mauganj",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Manasa",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Nainpur",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Prithvipur",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Sohagpur",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Nowrozabad (Khodargama)",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Shamgarh",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Maharajpur",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Multai",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Pali",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Pachore",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Rau",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Mhowgaon",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Vijaypur",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Narsinghgarh",
+   "State": "Madhya Pradesh"
+ },
+ {
+   "City": "Mumbai",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Pune",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Nagpur",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Thane",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Nashik",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Kalyan-Dombivali",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Vasai-Virar",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Solapur",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Mira-Bhayandar",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Bhiwandi",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Amravati",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Nanded-Waghala",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Sangli",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Malegaon",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Akola",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Latur",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Dhule",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Ahmednagar",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Ichalkaranji",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Parbhani",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Panvel",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Yavatmal",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Achalpur",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Osmanabad",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Nandurbar",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Satara",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Wardha",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Udgir",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Aurangabad",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Amalner",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Akot",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Pandharpur",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Shrirampur",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Parli",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Washim",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Ambejogai",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Manmad",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Ratnagiri",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Uran Islampur",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Pusad",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Sangamner",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Shirpur-Warwade",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Malkapur",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Wani",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Lonavla",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Talegaon Dabhade",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Anjangaon",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Umred",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Palghar",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Shegaon",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Ozar",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Phaltan",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Yevla",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Shahade",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Vita",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Umarkhed",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Warora",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Pachora",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Tumsar",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Manjlegaon",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Sillod",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Arvi",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Nandura",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Vaijapur",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Wadgaon Road",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Sailu",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Murtijapur",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Tasgaon",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Mehkar",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Yawal",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Pulgaon",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Nilanga",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Wai",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Umarga",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Paithan",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Rahuri",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Nawapur",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Tuljapur",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Morshi",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Purna",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Satana",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Pathri",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Sinnar",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Uchgaon",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Uran",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Pen",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Karjat",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Manwath",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Partur",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Sangole",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Mangrulpir",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Risod",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Shirur",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Savner",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Sasvad",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Pandharkaoda",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Talode",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Shrigonda",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Shirdi",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Raver",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Mukhed",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Rajura",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Vadgaon Kasba",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Tirora",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Mahad",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Lonar",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Sawantwadi",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Pathardi",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Pauni",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Ramtek",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Mul",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Soyagaon",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Mangalvedhe",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Narkhed",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Shendurjana",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Patur",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Mhaswad",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Loha",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Nandgaon",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Warud",
+   "State": "Maharashtra"
+ },
+ {
+   "City": "Imphal",
+   "State": "Manipur"
+ },
+ {
+   "City": "Thoubal",
+   "State": "Manipur"
+ },
+ {
+   "City": "Lilong",
+   "State": "Manipur"
+ },
+ {
+   "City": "Mayang Imphal",
+   "State": "Manipur"
+ },
+ {
+   "City": "Shillong",
+   "State": "Meghalaya"
+ },
+ {
+   "City": "Tura",
+   "State": "Meghalaya"
+ },
+ {
+   "City": "Nongstoin",
+   "State": "Meghalaya"
+ },
+ {
+   "City": "Aizawl",
+   "State": "Mizoram"
+ },
+ {
+   "City": "Lunglei",
+   "State": "Mizoram"
+ },
+ {
+   "City": "Saiha",
+   "State": "Mizoram"
+ },
+ {
+   "City": "Dimapur",
+   "State": "Nagaland"
+ },
+ {
+   "City": "Kohima",
+   "State": "Nagaland"
+ },
+ {
+   "City": "Zunheboto",
+   "State": "Nagaland"
+ },
+ {
+   "City": "Tuensang",
+   "State": "Nagaland"
+ },
+ {
+   "City": "Wokha",
+   "State": "Nagaland"
+ },
+ {
+   "City": "Mokokchung",
+   "State": "Nagaland"
+ },
+ {
+   "City": "Bhubaneswar",
+   "State": "Odisha"
+ },
+ {
+   "City": "Cuttack",
+   "State": "Odisha"
+ },
+ {
+   "City": "Raurkela",
+   "State": "Odisha"
+ },
+ {
+   "City": "Brahmapur",
+   "State": "Odisha"
+ },
+ {
+   "City": "Sambalpur",
+   "State": "Odisha"
+ },
+ {
+   "City": "Puri",
+   "State": "Odisha"
+ },
+ {
+   "City": "Baleshwar Town",
+   "State": "Odisha"
+ },
+ {
+   "City": "Baripada Town",
+   "State": "Odisha"
+ },
+ {
+   "City": "Bhadrak",
+   "State": "Odisha"
+ },
+ {
+   "City": "Balangir",
+   "State": "Odisha"
+ },
+ {
+   "City": "Jharsuguda",
+   "State": "Odisha"
+ },
+ {
+   "City": "Bargarh",
+   "State": "Odisha"
+ },
+ {
+   "City": "Paradip",
+   "State": "Odisha"
+ },
+ {
+   "City": "Bhawanipatna",
+   "State": "Odisha"
+ },
+ {
+   "City": "Dhenkanal",
+   "State": "Odisha"
+ },
+ {
+   "City": "Barbil",
+   "State": "Odisha"
+ },
+ {
+   "City": "Kendujhar",
+   "State": "Odisha"
+ },
+ {
+   "City": "Sunabeda",
+   "State": "Odisha"
+ },
+ {
+   "City": "Rayagada",
+   "State": "Odisha"
+ },
+ {
+   "City": "Jatani",
+   "State": "Odisha"
+ },
+ {
+   "City": "Byasanagar",
+   "State": "Odisha"
+ },
+ {
+   "City": "Kendrapara",
+   "State": "Odisha"
+ },
+ {
+   "City": "Rajagangapur",
+   "State": "Odisha"
+ },
+ {
+   "City": "Parlakhemundi",
+   "State": "Odisha"
+ },
+ {
+   "City": "Talcher",
+   "State": "Odisha"
+ },
+ {
+   "City": "Sundargarh",
+   "State": "Odisha"
+ },
+ {
+   "City": "Phulabani",
+   "State": "Odisha"
+ },
+ {
+   "City": "Pattamundai",
+   "State": "Odisha"
+ },
+ {
+   "City": "Titlagarh",
+   "State": "Odisha"
+ },
+ {
+   "City": "Nabarangapur",
+   "State": "Odisha"
+ },
+ {
+   "City": "Soro",
+   "State": "Odisha"
+ },
+ {
+   "City": "Malkangiri",
+   "State": "Odisha"
+ },
+ {
+   "City": "Rairangpur",
+   "State": "Odisha"
+ },
+ {
+   "City": "Tarbha",
+   "State": "Odisha"
+ },
+ {
+   "City": "Pondicherry",
+   "State": "Puducherry"
+ },
+ {
+   "City": "Karaikal",
+   "State": "Puducherry"
+ },
+ {
+   "City": "Yanam",
+   "State": "Puducherry"
+ },
+ {
+   "City": "Mahe",
+   "State": "Puducherry"
+ },
+ {
+   "City": "Ludhiana",
+   "State": "Punjab"
+ },
+ {
+   "City": "Patiala",
+   "State": "Punjab"
+ },
+ {
+   "City": "Amritsar",
+   "State": "Punjab"
+ },
+ {
+   "City": "Jalandhar",
+   "State": "Punjab"
+ },
+ {
+   "City": "Bathinda",
+   "State": "Punjab"
+ },
+ {
+   "City": "Pathankot",
+   "State": "Punjab"
+ },
+ {
+   "City": "Hoshiarpur",
+   "State": "Punjab"
+ },
+ {
+   "City": "Batala",
+   "State": "Punjab"
+ },
+ {
+   "City": "Moga",
+   "State": "Punjab"
+ },
+ {
+   "City": "Malerkotla",
+   "State": "Punjab"
+ },
+ {
+   "City": "Khanna",
+   "State": "Punjab"
+ },
+ {
+   "City": "Mohali",
+   "State": "Punjab"
+ },
+ {
+   "City": "Barnala",
+   "State": "Punjab"
+ },
+ {
+   "City": "Firozpur",
+   "State": "Punjab"
+ },
+ {
+   "City": "Phagwara",
+   "State": "Punjab"
+ },
+ {
+   "City": "Kapurthala",
+   "State": "Punjab"
+ },
+ {
+   "City": "Zirakpur",
+   "State": "Punjab"
+ },
+ {
+   "City": "Kot Kapura",
+   "State": "Punjab"
+ },
+ {
+   "City": "Faridkot",
+   "State": "Punjab"
+ },
+ {
+   "City": "Muktsar",
+   "State": "Punjab"
+ },
+ {
+   "City": "Rajpura",
+   "State": "Punjab"
+ },
+ {
+   "City": "Sangrur",
+   "State": "Punjab"
+ },
+ {
+   "City": "Fazilka",
+   "State": "Punjab"
+ },
+ {
+   "City": "Gurdaspur",
+   "State": "Punjab"
+ },
+ {
+   "City": "Kharar",
+   "State": "Punjab"
+ },
+ {
+   "City": "Gobindgarh",
+   "State": "Punjab"
+ },
+ {
+   "City": "Mansa",
+   "State": "Punjab"
+ },
+ {
+   "City": "Malout",
+   "State": "Punjab"
+ },
+ {
+   "City": "Nabha",
+   "State": "Punjab"
+ },
+ {
+   "City": "Tarn Taran",
+   "State": "Punjab"
+ },
+ {
+   "City": "Jagraon",
+   "State": "Punjab"
+ },
+ {
+   "City": "Sunam",
+   "State": "Punjab"
+ },
+ {
+   "City": "Dhuri",
+   "State": "Punjab"
+ },
+ {
+   "City": "Firozpur Cantt.",
+   "State": "Punjab"
+ },
+ {
+   "City": "Sirhind Fatehgarh Sahib",
+   "State": "Punjab"
+ },
+ {
+   "City": "Rupnagar",
+   "State": "Punjab"
+ },
+ {
+   "City": "Jalandhar Cantt.",
+   "State": "Punjab"
+ },
+ {
+   "City": "Samana",
+   "State": "Punjab"
+ },
+ {
+   "City": "Nawanshahr",
+   "State": "Punjab"
+ },
+ {
+   "City": "Rampura Phul",
+   "State": "Punjab"
+ },
+ {
+   "City": "Nangal",
+   "State": "Punjab"
+ },
+ {
+   "City": "Nakodar",
+   "State": "Punjab"
+ },
+ {
+   "City": "Zira",
+   "State": "Punjab"
+ },
+ {
+   "City": "Patti",
+   "State": "Punjab"
+ },
+ {
+   "City": "Raikot",
+   "State": "Punjab"
+ },
+ {
+   "City": "Longowal",
+   "State": "Punjab"
+ },
+ {
+   "City": "Urmar Tanda",
+   "State": "Punjab"
+ },
+ {
+   "City": "Morinda, India",
+   "State": "Punjab"
+ },
+ {
+   "City": "Phillaur",
+   "State": "Punjab"
+ },
+ {
+   "City": "Pattran",
+   "State": "Punjab"
+ },
+ {
+   "City": "Qadian",
+   "State": "Punjab"
+ },
+ {
+   "City": "Sujanpur",
+   "State": "Punjab"
+ },
+ {
+   "City": "Mukerian",
+   "State": "Punjab"
+ },
+ {
+   "City": "Talwara",
+   "State": "Punjab"
+ },
+ {
+   "City": "Jaipur",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Jodhpur",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Bikaner",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Udaipur",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Ajmer",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Bhilwara",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Alwar",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Bharatpur",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Pali",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Barmer",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sikar",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Tonk",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sadulpur",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sawai Madhopur",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Nagaur",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Makrana",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sujangarh",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sardarshahar",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Ladnu",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Ratangarh",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Nokha",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Nimbahera",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Suratgarh",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Rajsamand",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Lachhmangarh",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Rajgarh (Churu)",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Nasirabad",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Nohar",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Phalodi",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Nathdwara",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Pilani",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Merta City",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sojat",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Neem-Ka-Thana",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sirohi",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Pratapgarh",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Rawatbhata",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sangaria",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Lalsot",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Pilibanga",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Pipar City",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Taranagar",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Vijainagar, Ajmer",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sumerpur",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sagwara",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Ramganj Mandi",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Lakheri",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Udaipurwati",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Losal",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sri Madhopur",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Ramngarh",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Rawatsar",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Rajakhera",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Shahpura",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Shahpura",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Raisinghnagar",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Malpura",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Nadbai",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sanchore",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Nagar",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Rajgarh (Alwar)",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sheoganj",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sadri",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Todaraisingh",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Todabhim",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Reengus",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Rajaldesar",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sadulshahar",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Sambhar",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Prantij",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Mount Abu",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Mangrol",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Phulera",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Mandawa",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Pindwara",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Mandalgarh",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Takhatgarh",
+   "State": "Rajasthan"
+ },
+ {
+   "City": "Chennai",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Coimbatore",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Madurai",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tiruchirappalli",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Salem",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tirunelveli",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tiruppur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Ranipet",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Nagercoil",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Thanjavur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Vellore",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Kancheepuram",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Erode",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tiruvannamalai",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Pollachi",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Rajapalayam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Sivakasi",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Pudukkottai",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Neyveli (TS)",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Nagapattinam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Viluppuram",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tiruchengode",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Vaniyambadi",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Theni Allinagaram",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Udhagamandalam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Aruppukkottai",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Paramakudi",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Arakkonam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Virudhachalam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Srivilliputhur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tindivanam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Virudhunagar",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Karur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Valparai",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Sankarankovil",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tenkasi",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Palani",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Pattukkottai",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tirupathur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Ramanathapuram",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Udumalaipettai",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Gobichettipalayam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Thiruvarur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Thiruvallur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Panruti",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Namakkal",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Thirumangalam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Vikramasingapuram",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Nellikuppam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Rasipuram",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tiruttani",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Nandivaram-Guduvancheri",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Periyakulam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Pernampattu",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Vellakoil",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Sivaganga",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Vadalur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Rameshwaram",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tiruvethipuram",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Perambalur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Usilampatti",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Vedaranyam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Sathyamangalam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Puliyankudi",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Nanjikottai",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Thuraiyur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Sirkali",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tiruchendur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Periyasemur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Sattur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Vandavasi",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tharamangalam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tirukkoyilur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Oddanchatram",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Palladam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Vadakkuvalliyur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tirukalukundram",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Uthamapalayam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Surandai",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Sankari",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Shenkottai",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Vadipatti",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Sholingur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tirupathur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Manachanallur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Viswanatham",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Polur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Panagudi",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Uthiramerur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Thiruthuraipoondi",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Pallapatti",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Ponneri",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Lalgudi",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Natham",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Unnamalaikadai",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "P.N.Patti",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tharangambadi",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Tittakudi",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Pacode",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "O' Valley",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Suriyampalayam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Sholavandan",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Thammampatti",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Namagiripettai",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Peravurani",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Parangipettai",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Pudupattinam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Pallikonda",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Sivagiri",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Punjaipugalur",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Padmanabhapuram",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Thirupuvanam",
+   "State": "Tamil Nadu"
+ },
+ {
+   "City": "Hyderabad",
+   "State": "Telangana"
+ },
+ {
+   "City": "Warangal",
+   "State": "Telangana"
+ },
+ {
+   "City": "Nizamabad",
+   "State": "Telangana"
+ },
+ {
+   "City": "Karimnagar",
+   "State": "Telangana"
+ },
+ {
+   "City": "Ramagundam",
+   "State": "Telangana"
+ },
+ {
+   "City": "Khammam",
+   "State": "Telangana"
+ },
+ {
+   "City": "Mahbubnagar",
+   "State": "Telangana"
+ },
+ {
+   "City": "Mancherial",
+   "State": "Telangana"
+ },
+ {
+   "City": "Adilabad",
+   "State": "Telangana"
+ },
+ {
+   "City": "Suryapet",
+   "State": "Telangana"
+ },
+ {
+   "City": "Jagtial",
+   "State": "Telangana"
+ },
+ {
+   "City": "Miryalaguda",
+   "State": "Telangana"
+ },
+ {
+   "City": "Nirmal",
+   "State": "Telangana"
+ },
+ {
+   "City": "Kamareddy",
+   "State": "Telangana"
+ },
+ {
+   "City": "Kothagudem",
+   "State": "Telangana"
+ },
+ {
+   "City": "Bodhan",
+   "State": "Telangana"
+ },
+ {
+   "City": "Palwancha",
+   "State": "Telangana"
+ },
+ {
+   "City": "Mandamarri",
+   "State": "Telangana"
+ },
+ {
+   "City": "Koratla",
+   "State": "Telangana"
+ },
+ {
+   "City": "Sircilla",
+   "State": "Telangana"
+ },
+ {
+   "City": "Tandur",
+   "State": "Telangana"
+ },
+ {
+   "City": "Siddipet",
+   "State": "Telangana"
+ },
+ {
+   "City": "Wanaparthy",
+   "State": "Telangana"
+ },
+ {
+   "City": "Kagaznagar",
+   "State": "Telangana"
+ },
+ {
+   "City": "Gadwal",
+   "State": "Telangana"
+ },
+ {
+   "City": "Sangareddy",
+   "State": "Telangana"
+ },
+ {
+   "City": "Bellampalle",
+   "State": "Telangana"
+ },
+ {
+   "City": "Bhongir",
+   "State": "Telangana"
+ },
+ {
+   "City": "Vikarabad",
+   "State": "Telangana"
+ },
+ {
+   "City": "Jangaon",
+   "State": "Telangana"
+ },
+ {
+   "City": "Bhadrachalam",
+   "State": "Telangana"
+ },
+ {
+   "City": "Bhainsa",
+   "State": "Telangana"
+ },
+ {
+   "City": "Farooqnagar",
+   "State": "Telangana"
+ },
+ {
+   "City": "Medak",
+   "State": "Telangana"
+ },
+ {
+   "City": "Narayanpet",
+   "State": "Telangana"
+ },
+ {
+   "City": "Sadasivpet",
+   "State": "Telangana"
+ },
+ {
+   "City": "Yellandu",
+   "State": "Telangana"
+ },
+ {
+   "City": "Manuguru",
+   "State": "Telangana"
+ },
+ {
+   "City": "Kyathampalle",
+   "State": "Telangana"
+ },
+ {
+   "City": "Nagarkurnool",
+   "State": "Telangana"
+ },
+ {
+   "City": "Agartala",
+   "State": "Tripura"
+ },
+ {
+   "City": "Udaipur",
+   "State": "Tripura"
+ },
+ {
+   "City": "Dharmanagar",
+   "State": "Tripura"
+ },
+ {
+   "City": "Pratapgarh",
+   "State": "Tripura"
+ },
+ {
+   "City": "Kailasahar",
+   "State": "Tripura"
+ },
+ {
+   "City": "Belonia",
+   "State": "Tripura"
+ },
+ {
+   "City": "Khowai",
+   "State": "Tripura"
+ },
+ {
+   "City": "Lucknow",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Kanpur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Firozabad",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Agra",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Meerut",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Varanasi",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Allahabad",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Amroha",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Moradabad",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Aligarh",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Saharanpur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Noida",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Loni",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Jhansi",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Shahjahanpur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Rampur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Modinagar",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Hapur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Etawah",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sambhal",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Orai",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Bahraich",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Unnao",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Rae Bareli",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Lakhimpur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sitapur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Lalitpur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Pilibhit",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Chandausi",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Hardoi ",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Azamgarh",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Khair",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sultanpur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Tanda",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Nagina",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Shamli",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Najibabad",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Shikohabad",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sikandrabad",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Shahabad, Hardoi",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Pilkhuwa",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Renukoot",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Vrindavan",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Ujhani",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Laharpur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Tilhar",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sahaswan",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Rath",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sherkot",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Kalpi",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Tundla",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sandila",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Nanpara",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sardhana",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Nehtaur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Seohara",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Padrauna",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Mathura",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Thakurdwara",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Nawabganj",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Siana",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Noorpur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sikandra Rao",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Puranpur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Rudauli",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Thana Bhawan",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Palia Kalan",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Zaidpur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Nautanwa",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Zamania",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Shikarpur, Bulandshahr",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Naugawan Sadat",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Fatehpur Sikri",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Shahabad, Rampur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Robertsganj",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Utraula",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sadabad",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Rasra",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Lar",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Lal Gopalganj Nindaura",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sirsaganj",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Pihani",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Shamsabad, Agra",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Rudrapur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Soron",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "SUrban Agglomerationr",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Samdhan",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sahjanwa",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Rampur Maniharan",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sumerpur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Shahganj",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Tulsipur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Tirwaganj",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "PurqUrban Agglomerationzi",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Shamsabad, Farrukhabad",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Warhapur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Powayan",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sandi",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Achhnera",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Naraura",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Nakur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sahaspur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Safipur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Reoti",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sikanderpur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Saidpur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sirsi",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Purwa",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Parasi",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Lalganj",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Phulpur",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Shishgarh",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Sahawar",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Samthar",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Pukhrayan",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Obra",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Niwai",
+   "State": "Uttar Pradesh"
+ },
+ {
+   "City": "Dehradun",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Hardwar",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Haldwani-cum-Kathgodam",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Srinagar",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Kashipur",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Roorkee",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Rudrapur",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Rishikesh",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Ramnagar",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Pithoragarh",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Manglaur",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Nainital",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Mussoorie",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Tehri",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Pauri",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Nagla",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Sitarganj",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Bageshwar",
+   "State": "Uttarakhand"
+ },
+ {
+   "City": "Kolkata",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Siliguri",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Asansol",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Raghunathganj",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Kharagpur",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Naihati",
+   "State": "West Bengal"
+ },
+ {
+   "City": "English Bazar",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Baharampur",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Hugli-Chinsurah",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Raiganj",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Jalpaiguri",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Santipur",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Balurghat",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Medinipur",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Habra",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Ranaghat",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Bankura",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Nabadwip",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Darjiling",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Purulia",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Arambagh",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Tamluk",
+   "State": "West Bengal"
+ },
+ {
+   "City": "AlipurdUrban Agglomerationr",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Suri",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Jhargram",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Gangarampur",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Rampurhat",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Kalimpong",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Sainthia",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Taki",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Murshidabad",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Memari",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Paschim Punropara",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Tarakeswar",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Sonamukhi",
+   "State": "West Bengal"
+ },
+ {
+   "City": "PandUrban Agglomeration",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Mainaguri",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Malda",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Panchla",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Raghunathpur",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Mathabhanga",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Monoharpur",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Srirampore",
+   "State": "West Bengal"
+ },
+ {
+   "City": "Adra",
+   "State": "West Bengal"
+ }
+],
+	"reports": {
+		"display": true,
+		"pdf": false,
+		"excel": false,
+		"reportType": "",
+		"query": ""
+	},
+	"Servers": [
+
+	],
+	"Students": [
+
+	],
+	"querySet": [{
+			"query": "Inquries"
+		},
+		{
+			"query": "Servers"
+		},
+		{
+			"query": "Students"
+		},
+		{
+			"query": "Batches"
+		},
+		{
+			"query": "Subscriptions"
+		}
+	]
+}

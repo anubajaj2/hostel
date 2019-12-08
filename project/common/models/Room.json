@@ -1,0 +1,77 @@
+{
+  "name": "Room",
+  "plural": "Rooms",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ParentId": {
+      "type": "string",
+      "required": true
+    },
+    "RoomType": {
+      "type": "string",
+      "required": true
+    },
+    "AcNonAc": {
+      "type": "string",
+      "required": true
+    },
+    "Occupency": {
+      "type": "number"
+    },
+    "PricePerPerson": {
+      "type": "number"
+    },
+    "RoomsAvailable": {
+      "type": "number"
+    },
+    "Type": {
+      "type": "string",
+      "default": ""
+    },
+    "ChangedOn": {
+      "type": "date"
+    },
+    "ChangedBy": {
+      "type": "string",
+      "default": "null"
+    },
+    "CreatedOn": {
+      "type": "date"
+    },
+    "CreatedBy": {
+      "type": "string",
+      "default": "null"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "CreatedByTo": {
+			"type": "belongsTo",
+			"model": "AppUser",
+			"foreignKey": "CreatedBy"
+		},
+    "ChangedByTo": {
+			"type": "belongsTo",
+			"model": "AppUser",
+			"foreignKey": "ChangedBy"
+		},
+    "Photos": {
+        "type": "hasMany",
+        "model": "Photo",
+        "foreignKey": "RoomId"
+    }
+  },
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}

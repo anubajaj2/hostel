@@ -1,0 +1,74 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:u="sap.ui.unified"
+	xmlns:core="sap.ui.core"  xmlns:mvc="sap.ui.core.mvc">
+	<Dialog title="New Customer">
+		<VBox class="sapUiSmallMargin">
+			<f:SimpleForm id="createCustomer" editable="true" layout="ResponsiveGridLayout" labelSpanXL="4" labelSpanL="3" labelSpanM="4"
+				labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="4" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="1" columnsM="1"
+				singleContainerFullSize="false">
+				<f:content>
+					<Label text="Email Id"/>
+					<Input required="true" type="Email" value="{local>/newCustomer/GmailId}" id="idEmailCust" showValueHelp="true"
+							valueHelpRequest="onSelect"
+							liveChange = "onEmail"
+							submit = "onEnter"
+							placeholder="Enter Email Id ..."
+											showSuggestion="true"
+											suggestionItems="{/Inquries}" suggestionItemSelected="suggestionItemSelected">
+											<suggestionItems>
+												<core:Item text="{EmailId}" />
+											</suggestionItems>
+
+							  </Input>
+							<!-- suggestionItems="{Students}" -->
+					<Label required="true" text="Name"/>
+					<Input id="idName" value="{local>/newCustomer/Name}" liveChange="onEmailExist"/>
+					<Label text="Country"/>
+					<ComboBox id="idCountry" items="{local>/countries}" selectedKey="{local>/newCustomer/Country}">
+						<items>
+							<core:Item text="{local>name}" key="{local>code}"/>
+						</items>
+					</ComboBox>
+					<Label text="Phone"/>
+					<Input id="idPhone" type="number" value="{local>/newCustomer/ContactNo}"></Input>
+					<Label text="Other Email 1"/>
+					<Input id="idOtherEmail1" type="Email" required="false" value="{local>/newCustomer/OtherEmail1}"/>
+					<Label text="Other Email 2"/>
+					<Input id="idOtherEmail2" type="Email" required="false" value="{local>/newCustomer/OtherEmail2}"/>
+					<Label text="Skills"/>
+
+					<!-- <MultiInput  id="multiInputID" width="350px" suggestionItems="{local>/skills}" showValueHelp="false" value="{local>/newCustomer/Skills}">
+						<core:Item key="{local>key}" text="{local>text}"/>
+					</MultiInput> -->
+					<MultiComboBox id="idSkills"
+							selectionChange="handleSkillChange"
+							selectionFinish="handleSkillFinish"
+							width="350px"
+							items="{
+								path: 'local>/skills',
+								sorter: { path: 'text' }
+							}">
+		    	<core:Item key="{local>key}" text="{local>text}"/>
+		     </MultiComboBox>
+
+					<!--<Input value="{local>/newCustomer/Skills}"/>-->
+					<!--<MultiInput id="multiInputID" width="350px"  placeholder= "Writ skill(e.g.ABAP) and hit ENTER" showValueHelp="false"-->
+					<!--enableMultiLineMode="true"/>-->
+					<Label text="Resume"/>
+					<u:FileUploader id="idFileUploader" placeholder="Word or PDF files only"></u:FileUploader>
+					<Label text="Power Customer"></Label>
+					<CheckBox id="idStar" selected="{local>/newCustomer/Star}"></CheckBox>
+					<Label text="Defaulter"></Label>
+					<CheckBox  id="idDefaulter" selected="{local>/newCustomer/Defaulter}"></CheckBox>
+					<Label text="High Server Usage"></Label>
+					<CheckBox  id="idHighServerUsage" selected="{local>/newCustomer/HighServerUsage}"></CheckBox>
+				</f:content>
+			</f:SimpleForm>
+		</VBox>
+		<beginButton>
+			<Button id="createNew" text="Create" icon="sap-icon://save" press="onCreateCust"></Button>
+		</beginButton>
+		<endButton>
+			<Button id="closeItem" text="Close" press="onClose"></Button>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

@@ -1,0 +1,355 @@
+<mvc:View
+	xmlns:mvc="sap.ui.core.mvc"
+	controllerName="victoria.controller.Page2"
+	xmlns="sap.m"
+	xmlns:layout="sap.ui.layout"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:core="sap.ui.core"
+	xmlns:smartFilterBar="sap.ui.comp.smartfilterbar"
+	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+	xmlns:smartTable="sap.ui.comp.smarttable">
+	<Page id="idPage2" title="Hostel Details" showHeader="true" showFooter="true" showNavButton="false">
+		<content>
+			<!-- <Table width="auto" noDataText="No data" mode="None" showSeparators="All" growing="true" growingThreshold="20" growingScrollToLoad="true" class="sapUiResponsiveMargin" itemPress="_onTableItemPress" items="{path:'/HostelSet',
+			templateShareable:true}"> <infoToolbar> <Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true"> <content> <Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"
+			visible="true"/> </content> </Toolbar> </infoToolbar> <headerToolbar> <OverflowToolbar width="auto" height="auto" design="Transparent" visible="true" enabled="true"> <content> <Title text="Hostels(3)" titleStyle="Auto" width="auto" textAlign="Begin"
+			visible="true" wrapping="false"/> <ToolbarSpacer width=""/> <OverflowToolbarButton text="Sort" type="Transparent" icon="sap-icon://sort" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/> <OverflowToolbarButton
+			text="Filter" type="Transparent" icon="sap-icon://filter" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/> <OverflowToolbarButton text="Group" type="Transparent" icon="sap-icon://group-2" iconFirst="true"
+			width="auto" enabled="true" visible="true" iconDensityAware="false"/> <OverflowToolbarButton text="Settings" type="Transparent" icon="sap-icon://action-settings" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+			</content> </OverflowToolbar> </headerToolbar> <columns> <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Phone" demandPopin="false" popinDisplay="Inline" mergeDuplicates="false"> <header> <Text text="Hostel Name" width="auto"
+			maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/> </header> <footer/> </Column> <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline"
+			mergeDuplicates="false"> <header> <Text text="Owner" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/> </header> <footer/> </Column> <Column width="auto" hAlign="Left" vAlign="Top"
+			minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false"> <header> <Text text="Warden" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/> </header> <footer/> </Column>
+			<Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false"> <header> <Text text="Type" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"
+			visible="true"/> </header> <footer/> </Column> <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false"> <header> <Text text="Category" width="auto" maxLines="1"
+			wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/> </header> <footer/> </Column> </columns> <items> <ColumnListItem type="Active"> <cells> <ObjectIdentifier title="{ID}" text="{Guid}" titleActive="false" visible="true"/>
+			<layout:HorizontalLayout> <layout:content/> </layout:HorizontalLayout> <Text text="{HostelName}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/> <ObjectNumber number="{Owner}" unit="{Warden}"
+			emphasized="true" state="None"/> <layout:HorizontalLayout> <layout:content/> </layout:HorizontalLayout> </cells> </ColumnListItem> </items> </Table> -->
+			<layout:BlockLayout background="Default" visible="true">
+				<layout:content>
+					<layout:BlockLayoutRow scrollable="true">
+						<layout:content>
+							<layout:BlockLayoutCell width="50" title="" titleAlignment="Begin" titleLevel="Auto">
+								<layout:content>
+									<form:Form id="idPage2Form1" width="100%" editable="true" visible="true">
+										<form:title>
+											<core:Title text="Hostel Details" level="Auto"/>
+										</form:title>
+										<form:formContainers>
+											<form:FormContainer visible="true">
+												<form:formElements>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Hostel Name" design="Standard" width="100%" required="true" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<Input type="Text" id="idPage2HosName" required="true" change="onChange" value="{path:'local>HostelName', type:'sap.ui.model.type.String'}" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" maxLength="0"/>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Owner" design="Standard" width="100%" required="true" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<Input type="Text" id="idPage2Owner" required="true" value="{local>Owner}" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" maxLength="0"/>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Warden" design="Standard" width="100%" required="true" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<Input type="Text" id="idPage2Warden" required="true" change="onChange" value="{local>WardenName}" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" maxLength="0"/>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Category" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<ComboBox id="idPg2Category" editable="true" value="{local>Category}" enabled="true" visible="true" width="auto" valueState="None" maxWidth="100%">
+																<items>
+																	<core:Item text="A" enabled="true" key="A"/>
+																	<core:Item text="B" enabled="true" key="B"/>
+																	<core:Item text="C" enabled="true" key="C"/>
+																</items>
+															</ComboBox>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Type" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<ComboBox id="idPg2Type" editable="true" value="{local>Type}" enabled="true" visible="true" width="auto" valueState="None" maxWidth="100%">
+																<items>
+																	<core:Item text="Boys" enabled="true" key="Boys"/>
+																	<core:Item text="Girls" enabled="true" key="Girls"/>
+																</items>
+															</ComboBox>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Mobile" design="Standard" width="100%" required="true" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<Input
+																type="Number"
+																id="idPage2Mobile"
+																required="true"
+																change="onChange"
+																value="{path:'local>Mobile1', type:'sap.ui.model.type.String', constraints:{minLength:'10', maxLength: '10'}}"
+																showValueHelp="false"
+																enabled="true"
+																visible="true"
+																width="auto"
+																valueHelpOnly="false"
+																maxLength="0"/>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Alternate Mobile" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<Input type="Number" value="{path:'local>Mobile2', type:'sap.ui.model.type.String', constraints:{minLength:'10', maxLength: '10'}}" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" maxLength="0"/>
+														</form:fields>
+													</form:FormElement>
+												</form:formElements>
+												<form:title/>
+											</form:FormContainer>
+										</form:formContainers>
+										<form:layout>
+											<form:ResponsiveGridLayout adjustLabelSpan="false" columnsL="3" labelSpanL="2" columnsM="2" labelSpanM="2" labelSpanS="12"/>
+										</form:layout>
+									</form:Form>
+								</layout:content>
+							</layout:BlockLayoutCell>
+							<layout:BlockLayoutCell width="50" title="" titleAlignment="Begin" titleLevel="Auto">
+								<layout:content>
+									<form:Form id="idPage2Form2" width="auto" editable="true" visible="true">
+										<form:title>
+											<core:Title text="Address" level="Auto"/>
+										</form:title>
+										<form:formContainers>
+											<form:FormContainer visible="true">
+												<form:formElements>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Address Line - 1" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<Input type="Text" value="{local>AddressLine1}" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" maxLength="0"/>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Address Line - 2" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<Input type="Text" value="{local>AddressLine2}" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" maxLength="0"/>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Landmark" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<Input type="Text" value="{local>Landmark}" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" maxLength="0"/>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="State" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<!-- <form:fields> <ComboBox editable="true" enabled="true" visible="true" width="auto" valueState="None" maxWidth="100%"> <items> <core:Item text="Item" enabled="true" key="Item"/> <core:Item text="Item" enabled="true" key="Item"/> <core:Item
+														text="Item" enabled="true" key="Item"/> </items> </ComboBox> </form:fields> -->
+														<form:fields>
+															<Input
+																id="idPage2InpState"
+																change="onChange"
+																required="true"
+																suggestionItemSelected="onSuggestionItemSelected"
+																type="Text"
+																showValueHelp="false"
+																showSuggestion="true"
+																placeholder="Type Here For List Of States"
+																liveChange="handleValueHelpState"
+																value="{local>State}"
+																enabled="true"
+																visible="true"
+																width="auto"
+																valueHelpOnly="false"
+																maxLength="0"/>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="City" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<!-- <form:fields> <ComboBox editable="true" enabled="true" visible="true" width="auto" valueState="None" maxWidth="100%"> <items> <core:Item text="Item" enabled="true" key="Item"/> <core:Item text="Item" enabled="true" key="Item"/> <core:Item
+														text="Item" enabled="true" key="Item"/> </items> </ComboBox> </form:fields> -->
+														<form:fields>
+															<Input
+																id="idPage2InpCity"
+																required="true"
+																change="onChange"
+																type="Text"
+																value="{local>City}"
+																showValueHelp="false"
+																showSuggestion="true"
+																liveChange="handleValueHelpCities"
+																placeholder="Type Here For List Of Cities"
+																enabled="false"
+																visible="true"
+																width="auto"
+																valueHelpOnly="false"
+																maxLength="0"/>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Pincode" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<Input type="Number" value="{path:'local>Pincode', type:'sap.ui.model.type.String', constraints:{minLength:'6', maxLength: '6'}}" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" maxLength="0"/>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Landline Number" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<Input type="Number" value="{path:'local>Landline1', type:'sap.ui.model.type.String', constraints:{minLength:'12', maxLength: '12'}}" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" maxLength="0"/>
+														</form:fields>
+													</form:FormElement>
+												</form:formElements>
+												<form:title/>
+											</form:FormContainer>
+										</form:formContainers>
+										<form:layout>
+											<form:ResponsiveGridLayout adjustLabelSpan="false" columnsL="2" labelSpanL="3" columnsM="1" labelSpanM="2" labelSpanS="12"/>
+										</form:layout>
+									</form:Form>
+								</layout:content>
+							</layout:BlockLayoutCell>
+						</layout:content>
+					</layout:BlockLayoutRow>
+				</layout:content>
+			</layout:BlockLayout>
+			<smartFilterBar:SmartFilterBar id="smartFilterBar" entitySet="Hostels" persistencyKey="SmartFilter_Explored">
+				<smartFilterBar:controlConfiguration>
+					<smartFilterBar:ControlConfiguration key="City" visibleInAdvancedArea="true" preventInitialDataFetchInValueHelpDialog="false"></smartFilterBar:ControlConfiguration>
+				</smartFilterBar:controlConfiguration>
+				<smartFilterBar:controlConfiguration>
+					<smartFilterBar:ControlConfiguration key="State" visibleInAdvancedArea="true" preventInitialDataFetchInValueHelpDialog="false"></smartFilterBar:ControlConfiguration>
+				</smartFilterBar:controlConfiguration>
+			</smartFilterBar:SmartFilterBar>
+			<smartTable:SmartTable
+				entitySet="Hostels"
+				smartFilterId="smartFilterBar"
+				beforeExport="onBeforeExport"
+				useExportToExcel="{appView>/admin}"
+				useVariantManagement="false"
+				useTablePersonalisation="true"
+				header="Hostels"
+				showRowCount="true"
+				persistencyKey="SmartTableRefApp_Explored"
+				enableAutoBinding="true"
+				class="sapUiResponsiveContentPadding"
+				tableType="ResponsiveTable"
+				showFullScreenButton="true"
+				requestAtLeastFields="id,ChangedBy,CreatedBy,Mobile1"
+				beforeRebindTable="onBeforeRebindTable"
+				demandPopin="true">
+				<Table sticky="ColumnHeaders,HeaderToolbar" id="idInnerTasksTable" alternateRowColors="true" growing="true">
+					<columns>
+						<Column id="idCreatedBy" visible="false">
+							<customData>
+								<core:CustomData key="p13nData" value='\{"columnKey": "CreatedBy", "columnIndex":"15", "leadingProperty": "CreatedOn"}'/>
+							</customData>
+							<Text text="Created By"/>
+						</Column>
+						<Column id="idChangedBy" visible="false">
+							<customData>
+								<core:CustomData key="p13nData" value='\{"columnKey": "ChangedBy", "columnIndex":"16", "leadingProperty": "ChangedOn"}'/>
+							</customData>
+							<Text text="Changed By"/>
+						</Column>
+						<Column id="idMobile1" visible="false">
+							<customData>
+								<core:CustomData key="p13nData" value='\{"columnKey": "Mobile1", "columnIndex":"18", "leadingProperty": "Landmark"}'/>
+							</customData>
+							<Text text="Mobile"/>
+						</Column>
+						<Column id="idMobile2" visible="false">
+							<customData>
+								<core:CustomData key="p13nData" value='\{"columnKey": "Mobile2", "columnIndex":"9", "leadingProperty": "AddressLine2"}'/>
+							</customData>
+							<Text text="Alternate Mobile"/>
+						</Column>
+						<Column id="idLandLine1" visible="false">
+							<customData>
+								<core:CustomData key="p13nData" value='\{"columnKey": "Landline1", "columnIndex":"14", "leadingProperty": "CreatedOn"}'/>
+							</customData>
+							<Text text="Landline Number"/>
+						</Column>
+						<Column id="idPincode" visible="false">
+							<customData>
+								<core:CustomData key="p13nData" value='\{"columnKey": "Pincode", "columnIndex":"19", "leadingProperty": "Mobile1"}'/>
+							</customData>
+							<Text text="Pincode"/>
+						</Column>
+					</columns>
+					<items>
+						<ColumnListItem vAlign="Middle" type="Navigation" press="_onTableItemPress">
+							<cells>
+								<Text text="{path:'CreatedBy', formatter:'.formatter.fnUserFormat'}"/>
+							</cells>
+							<cells>
+								<Text text="{path:'ChangedBy', formatter:'.formatter.fnUserFormat'}"/>
+							</cells>
+							<cells>
+								<Text text="{path:'Mobile1'}"/>
+							</cells>
+							<cells>
+								<Text text="{path:'Mobile2'}"/>
+							</cells>
+							<cells>
+								<Text text="{path:'Landline1'}"/>
+							</cells>
+							<cells>
+								<Text text="{path:'Pincode'}"/>
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+			</smartTable:SmartTable>
+		</content>
+		<footer>
+			<OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+				<content>
+					<ToolbarSpacer width=""/>
+					<Button text="Save" id="idPage2BtnSave" press="onPage2Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+					<Button text="Clear" id="idPage2Btnclear" press="onPage2Clear" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+				</content>
+			</OverflowToolbar>
+		</footer>
+		<headerContent>
+			<Button
+				text=""
+				type="Default"
+				icon="{= ${FclRouter>/expandIcon/img}}"
+				iconFirst="true"
+				width="auto"
+				enabled="true"
+				visible="{= ${fclButton>/visible}}"
+				tooltip="{= ${FclRouter>/expandIcon/tooltip}}"
+				iconDensityAware="false"
+				class="fcl-resizeButton-js"
+				press="_onExpandButtonPress"/>
+			<Button text="" type="Default" icon="sap-icon://decline" iconFirst="true" width="auto" enabled="true" visible="{= ${fclButton>/visible}}" tooltip="Close Column" iconDensityAware="false" class="fcl-closeButton-js" press="_onCloseButtonPress"/>
+		</headerContent>
+	</Page>
+</mvc:View>

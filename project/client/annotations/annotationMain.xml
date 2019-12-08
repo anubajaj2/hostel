@@ -1,0 +1,162 @@
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+	<edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Aggregation.V1.xml">
+		<edmx:Include Alias="Aggregation" Namespace="Org.OData.Aggregation.V1"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Authorization.V1.xml">
+		<edmx:Include Alias="Auth" Namespace="Org.OData.Authorization.V1"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Capabilities.V1.xml">
+		<edmx:Include Alias="Capabilities" Namespace="Org.OData.Capabilities.V1"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="https://wiki.scn.sap.com/wiki/download/attachments/448470974/Common.xml?api=v2">
+		<edmx:Include Alias="Common" Namespace="com.sap.vocabularies.Common.v1"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="https://wiki.scn.sap.com/wiki/download/attachments/448470971/Communication.xml?api=v2">
+		<edmx:Include Alias="Communication" Namespace="com.sap.vocabularies.Communication.v1"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Core.V1.xml">
+		<edmx:Include Alias="Core" Namespace="Org.OData.Core.V1"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Measures.V1.xml">
+		<edmx:Include Alias="Measures" Namespace="Org.OData.Measures.V1"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="https://wiki.scn.sap.com/wiki/download/attachments/448470968/UI.xml?api=v2">
+		<edmx:Include Alias="UI" Namespace="com.sap.vocabularies.UI.v1"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Validation.V1.xml">
+		<edmx:Include Alias="Validation" Namespace="Org.OData.Validation.V1"/>
+	</edmx:Reference>
+	<edmx:DataServices>
+		<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm">
+			<Annotations Target="NODATASERVER.Hostel/AddressLine1">
+				<Annotation Term="Common.Label" String="Address Line-1"/>
+				<Annotation Term="Common.QuickInfo" String="Address Line-1"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Hostel/AddressLine2">
+				<Annotation Term="Common.Label" String="Address Line-2"/>
+				<Annotation Term="Common.QuickInfo" String="Address Line-2"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Hostel/Mobile1">
+				<Annotation Term="Common.Label" String="Mobile"/>
+				<Annotation Term="Communication.IsPhoneNumber" Bool="true"/>
+				<Annotation Term="Common.QuickInfo" String="Mobile Number"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Hostel/Mobile2">
+				<Annotation Term="Common.Label" String="Alternate Mobile"/>
+				<Annotation Term="Communication.IsPhoneNumber" Bool="true"/>
+				<Annotation Term="Common.QuickInfo" String="Alternate Mobile"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Hostel/Landline1">
+				<Annotation Term="Common.Label" String="Landline Number"/>
+				<Annotation Term="Common.QuickInfo" String="Landline Number"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Hostel/Landline2">
+				<Annotation Term="Common.Label" String="Alternate Landline"/>
+				<Annotation Term="Common.QuickInfo" String="Alternate Landline"/>
+				<Annotation Term="UI.Hidden" Bool="true"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Hostel/CreatedBy">
+				<Annotation Term="Common.Label" String="Created By"/>
+				<Annotation Term="Common.QuickInfo" String="Created By"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Hostel/CreatedOn">
+				<Annotation Term="Common.Label" String="Created On"/>
+				<Annotation Term="Common.QuickInfo" String="Created On"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Hostel/ChangedOn">
+				<Annotation Term="Common.Label" String="Changed On"/>
+				<Annotation Term="Common.QuickInfo" String="Changed On"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Hostel/ChangedBy">
+				<Annotation Term="Common.Label" String="Changed By"/>
+				<Annotation Term="Common.QuickInfo" String="Changed By"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Room/RoomType">
+				<Annotation Term="Common.Label" String="Room Type"/>
+				<Annotation Term="Common.QuickInfo" String="Changed By"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Room/AcNonAc">
+				<Annotation Term="Common.Label" String="AC/Non-AC/Cooler"/>
+				<Annotation Term="Common.QuickInfo" String="AC/Non-AC/Cooler"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Room/Occupency">
+				<Annotation Term="Common.Label" String="Occupency"/>
+				<Annotation Term="Common.QuickInfo" String="Occupency"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Room/PricePerPerson">
+				<Annotation Term="Common.Label" String="Price Per Person"/>
+				<Annotation Term="Common.QuickInfo" String="Price Per Person"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Room/RoomsAvailable">
+				<Annotation Term="Common.Label" String="Rooms Available"/>
+				<Annotation Term="Common.QuickInfo" String="Rooms Available"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Room/CreatedBy">
+				<Annotation Term="Common.Label" String="Created By"/>
+				<Annotation Term="Common.QuickInfo" String="Created By"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Room/CreatedOn">
+				<Annotation Term="Common.Label" String="Created On"/>
+				<Annotation Term="Common.QuickInfo" String="Created On"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Room/ChangedOn">
+				<Annotation Term="Common.Label" String="Changed On"/>
+				<Annotation Term="Common.QuickInfo" String="Changed On"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Room/ChangedBy">
+				<Annotation Term="Common.Label" String="Changed By"/>
+				<Annotation Term="Common.QuickInfo" String="Changed By"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Hostel">
+				<Annotation Term="UI.LineItem">
+					<Collection>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="HostelName"/>
+							<PropertyValue Property="Label" String="Hostel Name"/>
+						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="Owner"/>
+							<PropertyValue Property="Label" String="Owner Name"/>
+						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="WardenName"/>
+							<PropertyValue Property="Label" String="Warden Name"/>
+						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="Categeory"/>
+							<PropertyValue Property="Label" String="Hostel Categeory"/>
+						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="Type"/>
+							<PropertyValue Property="Label" String="Hostel Type"/>
+						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="City"/>
+							<PropertyValue Property="Label" String="City"/>
+						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="State"/>
+							<PropertyValue Property="Label" String="State"/>
+						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="id"/>
+							<PropertyValue Property="Label" String="ID"/>
+						</Record>
+					</Collection>
+				</Annotation>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Hostel/CreatedOn">
+				<Annotation Term="UI.HiddenFilter" Bool="true"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Hostel/CreatedBy">
+				<Annotation Term="UI.HiddenFilter" Bool="true"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Hostel/ChangedOn">
+				<Annotation Term="UI.HiddenFilter"/>
+			</Annotations>
+			<Annotations Target="NODATASERVER.Hostel/ChangedBy">
+				<Annotation Term="UI.HiddenFilter"/>
+			</Annotations>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

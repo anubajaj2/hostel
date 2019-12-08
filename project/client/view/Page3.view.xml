@@ -1,0 +1,228 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+	controllerName="victoria.controller.Page3"
+	xmlns:unified="sap.ui.unified"
+	xmlns="sap.m"
+	xmlns:layout="sap.ui.layout"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:core="sap.ui.core"
+	xmlns:smartFilterBar="sap.ui.comp.smartfilterbar"
+	xmlns:smartTable="sap.ui.comp.smarttable">
+	<Page id="idPage3" title="Room Details" showHeader="true" showFooter="true" showNavButton="false">
+		<content>
+			<ObjectHeader intro="{Owner}" title="{HostelName}" icon="sap-icon://home" number="{City}" numberUnit="{State}" numberState="None" titleActive="false" backgroundDesign="Translucent" condensed="false" visible="true">
+				<attributes/>
+				<statuses/>
+				<markers/>
+			</ObjectHeader>
+			<layout:BlockLayout background="Default" visible="true">
+				<layout:content>
+					<layout:BlockLayoutRow scrollable="false">
+						<layout:content>
+							<layout:BlockLayoutCell width="2" title="" titleAlignment="Begin" titleLevel="Auto">
+								<layout:content>
+									<form:Form width="100%" editable="true" visible="true">
+										<form:title>
+											<core:Title text="Enter Room Details" level="Auto"/>
+										</form:title>
+										<form:formContainers>
+											<form:FormContainer visible="true">
+												<form:formElements>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Room Type" design="Standard" required="true" width="100%" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<ComboBox editable="true" id="idPage3RoomType" change="onChange" required="true" value="{local>/newRoom/RoomType}" enabled="true" visible="true" width="auto" valueState="None" maxWidth="100%">
+																<items>
+																	<core:Item text="Simple" enabled="true" key="Simple"/>
+																	<core:Item text="Delux" enabled="true" key="Delux"/>
+																	<core:Item text="Semi-Delux" enabled="true" key="Semi-Delux"/>
+																	<core:Item text="Luxury" enabled="true" key="Luxury"/>
+																</items>
+															</ComboBox>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="No. Of Rooms Available" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<Input type="Number" value="{path:'local>/newRoom/RoomsAvailable', type:'sap.ui.model.type.String', constraints:{minLength:'2', maxLength: '2'}}" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" maxLength="0"/>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="AC/Non-AC/Cooler" required="true" design="Standard" width="100%" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<ComboBox editable="true" id="idPage3AcNonAc" change="onChange" required="true" value="{local>/newRoom/AcNonAc}" enabled="true" visible="true" width="auto" valueState="None" maxWidth="100%">
+																<items>
+																	<core:Item text="AC" enabled="true" key="AC"/>
+																	<core:Item text="Non-AC" enabled="true" key="Non-AC"/>
+																	<core:Item text="Cooler" enabled="true" key="Cooler"/>
+																</items>
+															</ComboBox>
+														</form:fields>
+													</form:FormElement>
+												</form:formElements>
+												<form:title/>
+											</form:FormContainer>
+										</form:formContainers>
+										<form:layout>
+											<form:ResponsiveGridLayout adjustLabelSpan="false" columnsL="2" labelSpanL="3" columnsM="1" labelSpanM="2" labelSpanS="12"/>
+										</form:layout>
+									</form:Form>
+								</layout:content>
+							</layout:BlockLayoutCell>
+							<layout:BlockLayoutCell width="2" title="" titleAlignment="Begin" titleLevel="Auto">
+								<layout:content>
+									<form:Form width="100%" editable="true" visible="true">
+										<form:title>
+											<core:Title text="" level="Auto"/>
+										</form:title>
+										<form:formContainers>
+											<form:FormContainer visible="true">
+												<form:formElements>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Price Per Person" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<Input type="Number" value="{path:'local>/newRoom/PricePerPerson', type:'sap.ui.model.type.String', constraints:{minLength:'4', maxLength: '5'}}" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" maxLength="0"/>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Occupency" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<ComboBox editable="true" id="idPage3Occupency" value="{local>/newRoom/Occupency}" enabled="true" visible="true" width="auto" valueState="None" maxWidth="100%">
+																<items>
+																	<core:Item text="1" enabled="true" key="1"/>
+																	<core:Item text="2" enabled="true" key="2"/>
+																	<core:Item text="3" enabled="true" key="3"/>
+																	<core:Item text="4" enabled="true" key="4"/>
+																	<core:Item text="5" enabled="true" key="5"/>
+																	<core:Item text="6" enabled="true" key="6"/>
+																	<core:Item text="7" enabled="true" key="7"/>
+																	<core:Item text="Other" enabled="true" key="Other"/>
+																</items>
+															</ComboBox>
+														</form:fields>
+													</form:FormElement>
+													<form:FormElement visible="true">
+														<form:label>
+															<Label text="Type" design="Standard" required="true" width="100%" textAlign="Begin" textDirection="Inherit" visible="true"/>
+														</form:label>
+														<form:fields>
+															<ComboBox editable="true" required="true" id="idPage3Type" change="onChange" value="{local>/newRoom/Type}" enabled="true" visible="true" width="auto" valueState="None" maxWidth="100%">
+																<items>
+																	<core:Item text="Boys" enabled="true" key="Boys"/>
+																	<core:Item text="Girls" enabled="true" key="Girls"/>
+																</items>
+															</ComboBox>
+														</form:fields>
+													</form:FormElement>
+												</form:formElements>
+												<form:title/>
+											</form:FormContainer>
+										</form:formContainers>
+										<form:layout>
+											<form:ResponsiveGridLayout adjustLabelSpan="false" columnsL="2" labelSpanL="3" columnsM="1" labelSpanM="2" labelSpanS="12"/>
+										</form:layout>
+									</form:Form>
+								</layout:content>
+							</layout:BlockLayoutCell>
+						</layout:content>
+					</layout:BlockLayoutRow>
+					<layout:BlockLayoutRow scrollable="false">
+					<layout:content>
+						<layout:BlockLayoutCell width="3" title="" titleAlignment="Begin" titleLevel="Auto">
+							<layout:content>
+								<unified:FileUploader id="idPage3ImgUploader" buttonText="Browse..." style="Emphasized" icon="sap-icon://search" buttonOnly="false" enabled="true" width="100%"
+									iconFirst="true" uploadOnChange="false" multiple="true" maximumFileSize="10"
+									mimeType="image/jpeg,image/gif,image/png"
+									uploadComplete="_onFileUploaderUploadComplete" change="onFileUploaderChange" typeMissmatch="_onFileUploaderTypeMissmatch"
+									fileSizeExceed="_onFileUploaderFileSizeExceed">
+									<unified:headerParameters/>
+									<unified:parameters/>
+									<unified:xhrSettings/>
+								</unified:FileUploader>
+							</layout:content>
+						</layout:BlockLayoutCell>
+						<layout:BlockLayoutCell width="1" title="" titleAlignment="Begin" titleLevel="Auto">
+							<layout:content>
+								<Button text="Upload Photos" id="idPage3BtnUpload" press="handleUploadPress" type="Emphasized" icon="sap-icon://upload" iconFirst="true" width="auto" enabled="true" visible="false"
+									iconDensityAware="false"/>
+							</layout:content>
+						</layout:BlockLayoutCell>
+					</layout:content>
+				</layout:BlockLayoutRow>
+				</layout:content>
+			</layout:BlockLayout>
+			<!-- <smartFilterBar:SmartFilterBar id="smartFilterBarRooms" entitySet="Hostels" persistencyKey="SmartFilter_Explored">
+				<smartFilterBar:controlConfiguration>
+					<smartFilterBar:ControlConfiguration key="City" visibleInAdvancedArea="true" preventInitialDataFetchInValueHelpDialog="false"></smartFilterBar:ControlConfiguration>
+				</smartFilterBar:controlConfiguration>
+				<smartFilterBar:controlConfiguration>
+					<smartFilterBar:ControlConfiguration key="State" visibleInAdvancedArea="true" preventInitialDataFetchInValueHelpDialog="false"></smartFilterBar:ControlConfiguration>
+				</smartFilterBar:controlConfiguration>
+			</smartFilterBar:SmartFilterBar> -->
+			<smartTable:SmartTable
+				entitySet="Rooms"
+				smartFilterId="smartFilterBarRooms"
+				beforeExport="onBeforeExport"
+				useVariantManagement="false"
+				useExportToExcel="{appView>/admin}"
+				useTablePersonalisation="true"
+				header="Rooms"
+				showRowCount="true"
+				persistencyKey="SmartTablePKRooms"
+				enableAutoBinding="true"
+				class="sapUiResponsiveContentPadding"
+				tableType="ResponsiveTable"
+				initiallyVisibleFields="RoomType,AcNonAc,Occupency,PricePerPerson,RoomsAvailable"
+				requestAtLeastFields="id"
+				showFullScreenButton="true"
+				beforeRebindTable="onBeforeRebindTable"
+				tableBindingPath="HostelToRooms"
+				demandPopin="true">
+				<Table sticky="ColumnHeaders,HeaderToolbar" id="idInnerRoomsTable" alternateRowColors="true" growing="true">
+					<items>
+						<ColumnListItem vAlign="Middle" type="Active" press="_onTableItemRoomsPress"></ColumnListItem>
+					</items>
+				</Table>
+			</smartTable:SmartTable>
+			<Carousel height="400px" id="idPage3Carousel" width="100%" loop="true" showPageIndicator="true" pageIndicatorPlacement="Bottom" visible="true"
+						class="sapUiContentPadding">
+						<!-- <pages>
+							 <Image src="{Photos}" height="auto" width="auto" visible="true" densityAware="false"/>
+						</pages> -->
+					</Carousel>
+		</content>
+		<footer>
+			<OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+				<content>
+					<ToolbarSpacer width=""/>
+					<Button text="Save" id="idPage3BtnSave" press="onPage3Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+					<Button text="Cancel" id="idPage3BtnClear" press="onPage3Clear" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+				</content>
+			</OverflowToolbar>
+		</footer>
+		<headerContent>
+			<Button
+				text=""
+				type="Default"
+				icon="{= ${FclRouter>/expandIcon/img}}"
+				iconFirst="true"
+				width="auto"
+				enabled="true"
+				visible="{= ${fclButton>/visible}}"
+				tooltip="{= ${FclRouter>/expandIcon/tooltip}}"
+				iconDensityAware="false"
+				class="fcl-resizeButton-js"
+				press="_onExpandButtonPress"/>
+			<Button text="" type="Default" icon="sap-icon://decline" iconFirst="true" width="auto" enabled="true" visible="{= ${fclButton>/visible}}" tooltip="Close Column" iconDensityAware="false" class="fcl-closeButton-js" press="_onCloseButtonPress"/>
+		</headerContent>
+	</Page>
+</mvc:View>

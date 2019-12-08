@@ -1,0 +1,17 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout">
+	<Dialog id="validationDialog" title="Validation Errors {local>/messagesLength}"
+		contentHeight="50%" contentWidth="100%">
+		<content>
+			<List id="validationTableId" inset="false" items="{local>/messages}"
+				busyIndicatorDelay="0" growing="true" growingThreshold="500">
+				<items>
+					<StandardListItem title="{local>description}" highlight="Error"/>
+				</items>
+			</List>
+		</content>
+		<beginButton>
+			<Button text="Ok" press="handlevalidationDialogClose"/>
+		</beginButton>
+
+	</Dialog>
+</core:FragmentDefinition>

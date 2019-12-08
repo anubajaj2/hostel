@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<script
+			src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+			id="sap-ui-bootstrap"
+			data-sap-ui-libs="sap.m, sap.ui.layout, sap.viz"
+			data-sap-ui-theme="sap_bluecrystal"
+			data-sap-ui-resourceroots='{ "victoria" : "./" }'
+			data-sap-ui-xx-bindingSyntax="complex"
+		>
+			
+		</script>
+		
+		<script>
+			
+			//Mimcking Fiori Lunnchpad
+			var oCompContainer = new sap.ui.core.ComponentContainer({
+				name: "victoria"
+			});
+			
+			oCompContainer.placeAt("content");
+			
+		</script>
+		
+	</head>
+	<body class="sapUiBody">
+		<div id="content"></div>
+	</body>
+</html>

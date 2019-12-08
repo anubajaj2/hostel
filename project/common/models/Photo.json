@@ -1,0 +1,34 @@
+{
+  "name": "Photo",
+  "plural": "Photos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "RoomId": {
+      "type": "string",
+      "required": true
+    },
+    "Photos": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "scope":{
+
+  },
+  "validations": [],
+  "relations": {
+  },
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Hostel",
+  "plural": "Hostels",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "HostelName": {
+      "type": "string",
+      "default": "",
+      "required": true
+    },
+    "Owner": {
+      "type": "string",
+      "default": "",
+      "required": true
+    },
+    "AddressLine1": {
+      "type": "string",
+      "default": "",
+      "required": true
+    },
+    "AddressLine2": {
+      "type": "string",
+      "default": ""
+    },
+    "Landmark": {
+      "type": "string",
+      "default": ""
+    },
+    "City": {
+      "type": "string",
+      "default": "",
+      "required": true
+    },
+    "State": {
+      "type": "string",
+      "default": "",
+      "required": true
+    },
+    "Pincode": {
+      "type": "number"
+    },
+    "Mobile1": {
+      "type": "number",
+      "default": "",
+      "required": true
+    },
+    "Mobile2": {
+      "type": "number"
+    },
+    "Landline1": {
+      "type": "number"
+    },
+    "Landline2": {
+      "type": "number"
+    },
+    "WardenName": {
+      "type": "string",
+      "default": ""
+    },
+    "Category": {
+      "type": "string",
+      "default": ""
+    },
+    "Type": {
+      "type": "string",
+      "default": ""
+    },
+    "CreatedOn": {
+      "type": "date"
+    },
+    "CreatedBy": {
+      "type": "string",
+      "default": "null"
+    },
+    "ChangedOn": {
+      "type": "date"
+    },
+    "ChangedBy": {
+      "type": "string",
+      "default": "null"
+    }
+  },
+  "validations": [
+  ],
+  "relations": {
+    "HostelToRooms": {
+      "type": "hasMany",
+      "model": "Room",
+      "foreignKey": "ParentId"
+    }
+  },
+   "scope":{
+  	"order":"CreatedOn DESC"
+  },
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}
