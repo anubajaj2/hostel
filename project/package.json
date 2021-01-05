@@ -38,7 +38,7 @@
     "xlsx-to-json-lc": "^0.5.0",
     "xoauth2": "^1.2.0",
     "googleapis": "latest",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "nconf": "^0.10.0",
     "opn": "^5.3.0",
     "server-destroy": "^1.0.1",
